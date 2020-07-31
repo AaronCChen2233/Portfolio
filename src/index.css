@@ -7,7 +7,33 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+div.pages{
+  min-height: calc(100vh - 56px);
+  background-color: #1D1D21;
+}
+
+div#root{
+  background-color: #1D1D21;
+}
+
+.fixed-top {
+  background-color: #2D2D2D;
+}
+
+/* .navbar-default .navbar-brand {
+  color: white;
+} */
+
+.navbar-custom .navbar-brand, 
+.navbar-custom .navbar-text { 
+    color: white; 
+} 
