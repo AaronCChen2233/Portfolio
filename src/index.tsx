@@ -3,12 +3,21 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { I18nProvider } from './i18n';
+
+const locales = [ 'en', 'zh' ];
+const translations = {
+  'en': require('./i18n/en').default,
+  'zh': require('./i18n/zh').default,
+}
+
 
 ReactDOM.render(
-
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>,
+  <I18nProvider locales={locales} translations={translations}>
+      <React.StrictMode>
+        <App />
+      </React.StrictMode>
+    </I18nProvider>,
   document.getElementById('root')
 );
   // <IntlProvider locale = {locale} key = {locale} defaultLocale="en">
