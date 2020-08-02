@@ -37,3 +37,15 @@ div#root{
 .navbar-custom .navbar-text { 
     color: white; 
 } 
+
+.dropdown-menu.show {
+  background-color: #2D2D2D;
+}
+
+a.dropdown-item{
+  color: white; 
+}
+
+a.dropdown-item:active{
+  background-color: #1D1D21;
+}

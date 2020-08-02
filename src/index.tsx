@@ -7,8 +7,8 @@ import { I18nProvider } from './i18n';
 
 const locales = [ 'en', 'zh' ];
 const translations = {
-  'en': require('./i18n/en').default,
-  'zh': require('./i18n/zh').default,
+  'en': require('./resources/en').default,
+  'zh': require('./resources/zh').default,
 }
 
 

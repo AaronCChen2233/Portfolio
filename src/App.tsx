@@ -24,16 +24,15 @@ const App: React.FC = () => {
         <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
         <Navbar.Collapse id="navbar-toggle">
           <Nav className="ml-auto">
+          <NavDropdown title={t('language')} id="nav-dropdown">
+              <NavDropdown.Item onClick={() => setLocale('en')} >English</NavDropdown.Item>
+              <NavDropdown.Item onClick={() => setLocale('zh')} >中文</NavDropdown.Item>
+            </NavDropdown>
             <a className="nav-link" href="/Portfolio/#about">{t('about')}</a>
             <a className="nav-link" href="/Portfolio/#experience">{t('experience')}</a>
             <a className="nav-link" href="/Portfolio/#works">{t('works')}</a>
             <a className="nav-link" href="mailto:aaronchen2233@gmail.com">{t('email')}</a>
             <Link className="nav-link" to="/resume">{t('resume')}</Link>
-
-            <NavDropdown title={t('language')} id="nav-dropdown">
-            <NavDropdown.Item onClick={() => setLocale('en')} >English</NavDropdown.Item>
-            <NavDropdown.Item onClick={() => setLocale('zh')} >中文</NavDropdown.Item>
-            </NavDropdown>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

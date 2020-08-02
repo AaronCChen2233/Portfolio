@@ -1,27 +1,13 @@
 import React from "react"
+import { useI18n } from '../i18n';
 
-interface ExperienceProps{
-
-}
-
-interface ExperienceStates{
-    title : string
-}
-
-class Experience extends React.Component<ExperienceProps, ExperienceStates>{
-
-    constructor(props: ExperienceProps) {
-        super(props);
-        this.state = { title: "Experience" };
-    }
-
-    render() {
-        return (
-        <div className="pages" id = "experience">
-            <h1 style={{paddingTop: "200px", color:'#FFFFFF' }}>{this.state.title}</h1>
+const Experience: React.FC = () => {
+    const { t, setLocale } = useI18n();
+    return (
+        <div className="pages" id="experience">
+            <h1 style={{paddingLeft :'10%', paddingTop: "10%", color:'#FFFFFF' }}>{t('experience')}</h1>
         </div>
-        );
-      }
-}
-
+    );
+  }
+  
 export default Experience;
