@@ -49,3 +49,35 @@ a.dropdown-item{
 a.dropdown-item:active{
   background-color: #1D1D21;
 }
+
+h1.title{
+  padding-top: 10%;
+}
+
+.lpten{
+  padding-left :10%;
+}
+
+.rpten{
+  padding-right :10%;
+}
+
+.tptwo{
+  padding-top: 2%;
+}
+
+.whitetext{
+  color: white;
+}
+
+.puplurtext{
+  color: #E2C7FF;
+}
+
+.lightbluetext{
+  color: #33C7E2;
+}
+
+.pinktext{
+  color: #FF74AF;
+}

@@ -26,7 +26,7 @@ const App: React.FC = () => {
           <Nav className="ml-auto">
           <NavDropdown title={t('language')} id="nav-dropdown">
               <NavDropdown.Item onClick={() => setLocale('en')} >English</NavDropdown.Item>
-              <NavDropdown.Item onClick={() => setLocale('zh')} >中文</NavDropdown.Item>
+              <NavDropdown.Item onClick={() => setLocale('zh')} >正體中文</NavDropdown.Item>
             </NavDropdown>
             <a className="nav-link" href="/Portfolio/#about">{t('about')}</a>
             <a className="nav-link" href="/Portfolio/#experience">{t('experience')}</a>
