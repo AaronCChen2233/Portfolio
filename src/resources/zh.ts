@@ -14,6 +14,12 @@ export default {
     'developmenttools':'開發工具',
     'abouttitle':'  您好，我是Aaron 陳，一個有四年以上Windows 桌面程式開發的經驗與一年Android開發的軟體工程師，有重構的經驗，知道怎麼維持Code乾淨易讀且有最好的效能，喜愛學習與提升我的技能',
     'neweggtw':'台灣新蛋, 台灣, 台北',
+    'neweggtwtime':'2014年9月 - 2018年9月',
+    'neweggposition':'軟體工程師',
+    'neweggtwdescription':'● 維護與開發NewEgg.tw網站，包括前端與後端',
+    'eipdescription':'● 維護與開發企業入口網站(EIP)，包括後端與手機端(Android)使用 XMPP、MS SQL Server，使用Active MQ、Solr、Redis使後端有好快的回應時間',
+    'boxdescription':'● 開發NewEgg Box 雲端系統桌面應用程式，使用Windows Presentation Foundation (WPF) 與 MVVM (MVVM Light)架構。研究與技術分享使團隊有更好的產出',
+
 
     //Proper nouns 專有名詞 Always English
     'mobileskills':'IOS, Android, Objective-C, Swift, Java, Kotlin',

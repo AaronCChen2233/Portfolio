@@ -9,6 +9,7 @@ const About: React.FC = () => {
             <h1 className='title lpten whitetext'>{t('about')}</h1>
             <Container className="p-0" fluid={true}>
                 <h6 className='lpten rpten tptwo whitetext'>{t('abouttitle')}</h6>
+                <br></br>
                 <h3 className='lpten lightbluetext'>{t('skills')}</h3>
                 <h4 className='lpten pinktext'>{t('mobiledevelop')}</h4>
                 <h5 className='lpten whitetext'>{t('mobileskills')}</h5>

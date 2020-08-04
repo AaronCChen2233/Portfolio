@@ -39,7 +39,7 @@ div#root{
 } 
 
 .dropdown-menu.show {
-  background-color: #2D2D2D;
+  background-color: #343a40;
 }
 
 a.dropdown-item{
@@ -48,6 +48,14 @@ a.dropdown-item{
 
 a.dropdown-item:active{
   background-color: #1D1D21;
+}
+
+.card-body{
+  background-color: #1D1D21;
+}
+
+p.card-text{
+  font-size: 25px;
 }
 
 h1.title{
@@ -80,4 +88,8 @@ h1.title{
 
 .pinktext{
   color: #FF74AF;
+}
+
+.greentext{
+  color: #ACF083;
 }

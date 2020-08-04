@@ -19,7 +19,7 @@ const App: React.FC = () => {
   return (
     <Router>
     <Container className="p-0" fluid={true}>
-      <Navbar fixed="top" bg="#1D1D21" variant="dark" expand="sm">
+      <Navbar fixed="top" bg="dark" variant="dark" expand="sm">
         <Navbar.Brand href="/Portfolio/#home">Aaron Chen</Navbar.Brand>
         <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
         <Navbar.Collapse id="navbar-toggle">

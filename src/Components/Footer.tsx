@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
     return (
         <footer style={{backgroundColor:"#1D1D21" }} >
             <a href="https://github.com/AaronCChen2233/Portfolio/tree/master">
-                <div style={{textAlign:"center" , color:'#FFFFFF', width:"100hv", paddingBottom: "60px"}}>Designed &amp; Built by Aaron Chen</div>
+                <div className='greentext' style={{textAlign:"center" , width:"100hv", paddingBottom: "60px"}}>Designed &amp; Built by Aaron Chen</div>
             </a>
         </footer>
     );
