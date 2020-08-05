@@ -38,6 +38,10 @@ div#root{
     color: white; 
 } 
 
+div.card-deck{
+  margin: 0;
+}
+
 .dropdown-menu.show {
   background-color: #343a40;
 }

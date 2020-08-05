@@ -20,7 +20,8 @@ export default {
     'eipdescription':'● 維護與開發企業入口網站(EIP)，包括後端與手機端(Android)使用 XMPP、MS SQL Server，使用Active MQ、Solr、Redis使後端有好快的回應時間',
     'boxdescription':'● 開發NewEgg Box 雲端系統桌面應用程式，使用Windows Presentation Foundation (WPF) 與 MVVM (MVVM Light)架構。研究與技術分享使團隊有更好的產出',
 
-
+    'designedandbuilt':'由 Aaron 陳 設計與建造',
+    'portfoliousign':'使用 React, TypeScript, Bootstrap',
     //Proper nouns 專有名詞 Always English
     'mobileskills':'IOS, Android, Objective-C, Swift, Java, Kotlin',
     'webskills':'ASP.NET, React, TypeScript, JavaScript',

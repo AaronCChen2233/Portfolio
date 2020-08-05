@@ -20,6 +20,8 @@ export default {
     'eipdescription':'● Maintain and develop Enterprise Information Portal (EIP). Include Back end and Mobile(Android). Using XMPP, MS SQL Server. And using Active MQ, Solr, Redis made the Back end service response time shorter.',
     'boxdescription':'● Developed the NewEgg Box cloud system desktop application. Using Windows Presentation Foundation (WPF) with MVVM pattern (MVVM Light). Research and share technical skills to improve the team performed.',
 
+    'designedandbuilt':'Designed and Built by Aaron Chen',
+    'portfoliousign':'Using React, TypeScript, Bootstrap',
     //Proper nouns 專有名詞 Always English
     'mobileskills':'IOS, Android, Objective-C, Swift, Java, Kotlin',
     'webskills':'ASP.NET, React, TypeScript, JavaScript',
