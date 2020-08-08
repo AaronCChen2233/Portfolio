@@ -1,25 +1,29 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.d2fdbaed.chunk.css",
-    "main.js": "/Portfolio/static/js/main.36b5c305.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.36b5c305.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.22b34147.chunk.css",
+    "main.js": "/Portfolio/static/js/main.8ab58c05.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.8ab58c05.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.e440ee5a.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.e440ee5a.js.map",
     "static/css/2.af3c1da9.chunk.css": "/Portfolio/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.23f07b36.chunk.js": "/Portfolio/static/js/2.23f07b36.chunk.js",
-    "static/js/2.23f07b36.chunk.js.map": "/Portfolio/static/js/2.23f07b36.chunk.js.map",
+    "static/js/2.6e610d3d.chunk.js": "/Portfolio/static/js/2.6e610d3d.chunk.js",
+    "static/js/2.6e610d3d.chunk.js.map": "/Portfolio/static/js/2.6e610d3d.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.0f2cdfb30e55f0e10cbfd89fb4b56822.js": "/Portfolio/precache-manifest.0f2cdfb30e55f0e10cbfd89fb4b56822.js",
+    "precache-manifest.46ce415d23dd8c09c3bfea5c03842083.js": "/Portfolio/precache-manifest.46ce415d23dd8c09c3bfea5c03842083.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/Portfolio/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.d2fdbaed.chunk.css.map": "/Portfolio/static/css/main.d2fdbaed.chunk.css.map",
-    "static/js/2.23f07b36.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.23f07b36.chunk.js.LICENSE.txt"
+    "static/css/main.22b34147.chunk.css.map": "/Portfolio/static/css/main.22b34147.chunk.css.map",
+    "static/js/2.6e610d3d.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.6e610d3d.chunk.js.LICENSE.txt",
+    "static/media/clipboardtranslator.png": "/Portfolio/static/media/clipboardtranslator.ec9c1583.png",
+    "static/media/multiplefilerename.png": "/Portfolio/static/media/multiplefilerename.7be829f4.png",
+    "static/media/simplemusicnotesreader.png": "/Portfolio/static/media/simplemusicnotesreader.d5ec2779.png",
+    "static/media/sudoku.png": "/Portfolio/static/media/sudoku.868b0fba.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e440ee5a.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.23f07b36.chunk.js",
-    "static/css/main.d2fdbaed.chunk.css",
-    "static/js/main.36b5c305.chunk.js"
+    "static/js/2.6e610d3d.chunk.js",
+    "static/css/main.22b34147.chunk.css",
+    "static/js/main.8ab58c05.chunk.js"
   ]
 }
