@@ -12,7 +12,10 @@ import Works from './Components/Works';
 import Experience from './Components/Experience';
 import Footer from './Components/Footer';
 import { useI18n } from './i18n';
-
+// import enResume from './resources/resume/enResume.pdf'
+import pdf from './resources/resume/enresume.pdf'
+import github from './resources/image/github.svg'
+import linkedin from './resources/image/linkedin.svg'
 
 const App: React.FC = () => {
   const { t, setLocale } = useI18n();
@@ -31,8 +34,17 @@ const App: React.FC = () => {
             <a className="nav-link" href="/Portfolio/#about">{t('about')}</a>
             <a className="nav-link" href="/Portfolio/#experience">{t('experience')}</a>
             <a className="nav-link" href="/Portfolio/#works">{t('works')}</a>
+            <a className="nav-link" target="_blank" href={pdf}>{t('resume')}</a>
             <a className="nav-link" href="mailto:aaronchen2233@gmail.com">{t('email')}</a>
-            <Link className="nav-link" to="/resume">{t('resume')}</Link>
+     
+            <a className="iconlink" target="_blank" href="https://github.com/AaronCChen2233">
+              <img src={github} width="40" height="40" className="nav-link" alt="github" />
+            </a>
+
+            <a className="iconlink" target="_blank" href="https://www.linkedin.com/in/aaron-chen-0b31b6190/">
+              <img src={linkedin} width="40" height="40" className="nav-link" alt="github" />
+            </a>
+
           </Nav>
         </Navbar.Collapse>
       </Navbar>

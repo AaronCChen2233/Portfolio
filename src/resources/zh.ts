@@ -1,5 +1,5 @@
 export default {
-    'hometitle': '您好，我是 Aaron 陳。 在溫哥華的軟體工程師',
+    'hometitle': '您好，我是 陳志嶄。 在溫哥華的軟體工程師',
     'about': '關於',
     'experience' : '經驗',
     'works':'作品',
@@ -19,13 +19,27 @@ export default {
     'neweggtwdescription':'● 維護與開發NewEgg.tw網站，包括前端與後端',
     'eipdescription':'● 維護與開發企業入口網站(EIP)，包括後端與手機端(Android)使用 XMPP、MS SQL Server，使用Active MQ、Solr、Redis使後端有好快的回應時間',
     'boxdescription':'● 開發NewEgg Box 雲端系統桌面應用程式，使用Windows Presentation Foundation (WPF) 與 MVVM (MVVM Light)架構。研究與技術分享使團隊有更好的產出',
-
-    'designedandbuilt':'由 Aaron 陳 設計與建造',
+    'designedandbuilt':'由陳志嶄設計與建造',
     'portfoliousign':'使用 React, TypeScript, Bootstrap',
+    'simplemusicnotesreaderdescription1':'一個給音樂家讀樂譜的Android App，你可以開啟一個 ',
+    'simplemusicnotesreaderdescription2':' 檔，這個軟體會顯示樂譜，這個軟體會自動向下捲動樂譜，你可以設定捲動速度，所以你可以一邊演湊一邊讀樂譜。',
+    'multiplefilerenamedescription':'一個你可以批次幫檔案改名的 Windows 桌面軟體，一共有三種改名方法，取代，刪除與新增字元。',
+    'sudokudescription':'一個能隨機產生數獨問題的 Windows 桌面軟體，有使用者介面可使使用者玩數獨，可選擇難度，當你完成時計時器會自動暫停。',
+    'clipboardtranslatordescription':'一個翻譯的 Windows 桌面軟體，當你複製一個單字時會在角落跳出一個小視窗，上面會顯示關於這個單字的相關資訊與翻譯。',
+    'viewgithub':'查看 GitHub',
     //Proper nouns 專有名詞 Always English
     'mobileskills':'IOS, Android, Objective-C, Swift, Java, Kotlin',
     'webskills':'ASP.NET, React, TypeScript, JavaScript',
-    'desktopskills':'WPF, Swing, Tkinter',
+    'desktopskills':'WPF, Swing, Tkinter, C#, Java, Python',
     'databaseskills':'Microsoft SQL Server, MongoDB, Firebase',
     'developtoolskills':'Xcode, Android Studio, Microsoft Visual Studio, Visual Studio Code, PyCharm, IntelliJ, Git',
+    'sudoku':'SUDOKU',
+    'clipboardtranslator':'Clipboard Translator',
+    'multiplefilerename':'Multiple File Rename',
+    'simplemusicnotesreader':'Simple Music Notes Reader',
+
+    'musicreadertech':'Android Kotlin JavaScript MVVM',
+    'multiplefilerenametech':'WPF .NET Framework C# MVVM',
+    'sudokutech':'Swing java',
+    'clipboardtranslatortech':'Swing java'
 };
