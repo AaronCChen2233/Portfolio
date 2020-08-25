@@ -12,7 +12,7 @@ export default {
     'dasktopdevelop':'桌面程式開發',
     'database':'資料庫',
     'developmenttools':'開發工具',
-    'abouttitle':'  您好，我是Aaron 陳，一個有四年以上Windows 桌面程式開發的經驗與一年Android開發的軟體工程師，有重構的經驗，知道怎麼維持Code乾淨易讀且有最好的效能，喜愛學習與提升我的技能',
+    'abouttitle':'  您好，我是陳志嶄，一個有四年以上Windows 桌面程式開發的經驗與一年Android開發的軟體工程師，有重構的經驗，知道怎麼維持Code乾淨易讀且有最好的效能，喜愛學習與提升我的技能',
     'neweggtw':'台灣新蛋, 台灣, 台北',
     'neweggtwtime':'2014年9月 - 2018年9月',
     'neweggposition':'軟體工程師',

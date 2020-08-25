@@ -29,9 +29,22 @@ div#root{
   background-color: #2D2D2D;
 }
 
-/* .navbar-default .navbar-brand {
-  color: white;
-} */
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+
+  to {
+      opacity: 1;
+  }
+}
+
+.textapperanimation{
+  animation-name: appear;
+  animation-duration: 1s;
+}
+
+
 
 .navbar-custom .navbar-brand, 
 .navbar-custom .navbar-text { 

@@ -12,7 +12,7 @@ export default {
     'dasktopdevelop':'Desktop Application Development',
     'database':'Database',
     'developmenttools':'Development Tools',
-    'abouttitle':'  Hello, I am Aaron Chen, a software engineer with 4+ years of experience in Windows desktop application development and 1 year experience in Android development. Have Code refactoring experience. Know how to keep code clean and easy to read also have the best performance. Eager to learn more to continuously improve my skills.',
+    'abouttitle':'  Hello, I am Aaron Chen, a software engineer with 4+ years of experience in Windows desktop application development and 1-year experience in Android development. Have Code refactoring experience. Know how to keep code clean and easy to read also has the best performance. Eager to learn more to continuously improve my skills.',
     'neweggtw':'Newegg, Taipei, Taiwan',
     'neweggtwtime':'Sep 2014 - Sep 2018',
     'neweggposition':'Software Engineer',
