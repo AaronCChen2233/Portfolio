@@ -13,12 +13,14 @@ import Experience from './Components/Experience';
 import Footer from './Components/Footer';
 import { useI18n } from './i18n';
 // import enResume from './resources/resume/enResume.pdf'
-import pdf from './resources/resume/enresume.pdf'
+import enpdf from './resources/resume/enresume.pdf'
+import zhpdf from './resources/resume/zhresume.pdf'
 import github from './resources/image/github.svg'
 import linkedin from './resources/image/linkedin.svg'
 
 const App: React.FC = () => {
-  const { t, setLocale } = useI18n();
+  const { t, getLocale, setLocale } = useI18n();
+  console.log(getLocale())
   return (
     <Router>
     <Container className="p-0" fluid={true}>
@@ -34,7 +36,9 @@ const App: React.FC = () => {
             <a className="nav-link" href="/Portfolio/#about">{t('about')}</a>
             <a className="nav-link" href="/Portfolio/#experience">{t('experience')}</a>
             <a className="nav-link" href="/Portfolio/#works">{t('works')}</a>
-            <a className="nav-link" target="_blank" href={pdf}>{t('resume')}</a>
+            <a className="nav-link" target="_blank" href={String(getLocale()) == "en" ? enpdf : zhpdf}>{t('resume')}</a>
+
+
             <a className="nav-link" href="mailto:aaronchen2233@gmail.com">{t('email')}</a>
      
             <a className="iconlink" target="_blank" href="https://github.com/AaronCChen2233">
