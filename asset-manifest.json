@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.c316a42a.chunk.css",
-    "main.js": "/Portfolio/static/js/main.524b5ed6.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.524b5ed6.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.c9e53617.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.c9e53617.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.e440ee5a.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.e440ee5a.js.map",
     "static/css/2.af3c1da9.chunk.css": "/Portfolio/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.c07bfe6f.chunk.js": "/Portfolio/static/js/2.c07bfe6f.chunk.js",
-    "static/js/2.c07bfe6f.chunk.js.map": "/Portfolio/static/js/2.c07bfe6f.chunk.js.map",
+    "static/js/2.848a9be8.chunk.js": "/Portfolio/static/js/2.848a9be8.chunk.js",
+    "static/js/2.848a9be8.chunk.js.map": "/Portfolio/static/js/2.848a9be8.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.5e4999318c69ea792cf2dadf7cc853a0.js": "/Portfolio/precache-manifest.5e4999318c69ea792cf2dadf7cc853a0.js",
+    "precache-manifest.ae6b3519abedfa93041b560e622e2a09.js": "/Portfolio/precache-manifest.ae6b3519abedfa93041b560e622e2a09.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/Portfolio/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.c316a42a.chunk.css.map": "/Portfolio/static/css/main.c316a42a.chunk.css.map",
-    "static/js/2.c07bfe6f.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.c07bfe6f.chunk.js.LICENSE.txt",
+    "static/js/2.848a9be8.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.848a9be8.chunk.js.LICENSE.txt",
     "static/media/clipboardtranslator.png": "/Portfolio/static/media/clipboardtranslator.ec9c1583.png",
     "static/media/enresume.pdf": "/Portfolio/static/media/enresume.5eac1d4e.pdf",
     "static/media/github.svg": "/Portfolio/static/media/github.6c99aac6.svg",
@@ -21,13 +21,14 @@
     "static/media/multiplefilerename.png": "/Portfolio/static/media/multiplefilerename.7be829f4.png",
     "static/media/mypicture.jpeg": "/Portfolio/static/media/mypicture.0f19e4b3.jpeg",
     "static/media/simplemusicnotesreader.png": "/Portfolio/static/media/simplemusicnotesreader.d5ec2779.png",
-    "static/media/sudoku.png": "/Portfolio/static/media/sudoku.868b0fba.png"
+    "static/media/sudoku.png": "/Portfolio/static/media/sudoku.868b0fba.png",
+    "static/media/zhresume.pdf": "/Portfolio/static/media/zhresume.f1b5c34b.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.e440ee5a.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.c07bfe6f.chunk.js",
+    "static/js/2.848a9be8.chunk.js",
     "static/css/main.c316a42a.chunk.css",
-    "static/js/main.524b5ed6.chunk.js"
+    "static/js/main.c9e53617.chunk.js"
   ]
 }
