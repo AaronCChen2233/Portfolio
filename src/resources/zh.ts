@@ -1,5 +1,5 @@
 export default {
-    'hometitle': '您好，我是 陳志嶄。 在溫哥華的軟體工程師',
+    'hometitle': '您好，我是 陳志嶄。 在台中的軟體工程師',
     'about': '關於',
     'experience' : '經驗',
     'works':'作品',

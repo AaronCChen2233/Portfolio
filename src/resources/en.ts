@@ -1,5 +1,5 @@
 export default {
-    'hometitle': 'Hello, I am Aaron Chen. Software Engineer based in Vancouver, BC',
+    'hometitle': 'Hello, I am Aaron Chen. Software Engineer based in Taichung, TW',
     'about': 'About',
     'experience' : 'Experience',
     'works':'Works',

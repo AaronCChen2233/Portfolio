@@ -7,7 +7,7 @@ type I18nProviderProps = {
 };
 
 const I18nProvider: React.FC<I18nProviderProps> = (props) => {
-  const [ locale, setLocale ] = useState('en');
+  const [ locale, setLocale ] = useState('zh');
 
   const i18n: I18nContextProps = { 
     t: key => props.translations[locale][key],

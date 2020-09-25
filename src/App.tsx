@@ -20,7 +20,6 @@ import linkedin from './resources/image/linkedin.svg'
 
 const App: React.FC = () => {
   const { t, getLocale, setLocale } = useI18n();
-  console.log(getLocale())
   return (
     <Router>
     <Container className="p-0" fluid={true}>
@@ -37,8 +36,6 @@ const App: React.FC = () => {
             <a className="nav-link" href="/Portfolio/#experience">{t('experience')}</a>
             <a className="nav-link" href="/Portfolio/#works">{t('works')}</a>
             <a className="nav-link" target="_blank" href={String(getLocale()) == "en" ? enpdf : zhpdf}>{t('resume')}</a>
-
-
             <a className="nav-link" href="mailto:aaronchen2233@gmail.com">{t('email')}</a>
      
             <a className="iconlink" target="_blank" href="https://github.com/AaronCChen2233">
