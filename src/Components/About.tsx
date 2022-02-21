@@ -19,16 +19,18 @@ const About: React.FC = () => {
                     <Col xs={18} md={15} className='btten' >
                         <Container className="p-0" fluid={true}>
                             <h3 className='lightbluetext'>{t('skills')}</h3>
+                            <h4 className='pinktext'>{t('dasktopdevelop')}</h4>
+                            <h5 className='whitetext'>{t('desktopskills')}</h5>
                             <h4 className='pinktext'>{t('mobiledevelop')}</h4>
                             <h5 className='whitetext'>{t('mobileskills')}</h5>
                             <h4 className='pinktext'>{t('webdevelop')}</h4>
                             <h5 className='whitetext'>{t('webskills')}</h5>
-                            <h4 className='pinktext'>{t('dasktopdevelop')}</h4>
-                            <h5 className='whitetext'>{t('desktopskills')}</h5>
                             <h4 className='pinktext'>{t('database')}</h4>
                             <h5 className='whitetext'>{t('databaseskills')}</h5>
                             <h4 className='pinktext'>{t('developmenttools')}</h4>
                             <h5 className='whitetext'>{t('developtoolskills')}</h5>
+                            <h4 className='pinktext'>{t('versioncontroltools')}</h4>
+                            <h5 className='whitetext'>{t('versioncontroltoolskills')}</h5>
                         </Container>
                     </Col>
                     <Col xs={12} md={5} >

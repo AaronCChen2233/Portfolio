@@ -2,6 +2,8 @@ import React from "react"
 import { useI18n } from '../i18n';
 import Accordion from 'react-bootstrap/Accordion'
 import Card from 'react-bootstrap/Card'
+import newegg from '../resources/image/newegg.png'
+import realsun from '../resources/image/realsun.png'
 
 const Experience: React.FC = () => {
     const { t, setLocale } = useI18n();
@@ -9,17 +11,34 @@ const Experience: React.FC = () => {
         <div className="pages" id="experience">
             <h1 className='title lpten whitetext'>{t('experience')}</h1>
 
-            <Accordion className='lpten rpten tptwo' defaultActiveKey="0">
+            <Accordion className='lpten rpten tptwo' defaultActiveKey="0" >
                 <Card bg ='dark' text='white'  >
                     <Card.Header>
-                    <Accordion.Toggle as={Card.Text} eventKey="0">
+                    <Accordion.Toggle as={Card.Text} eventKey="0" >
+                    <Card.Img className="icon" src={realsun} />
+                        {t('realsun')}
+                    </Accordion.Toggle>
+                    </Card.Header>
+                    <Accordion.Collapse eventKey="0">
+                    <Card.Body>
+                        <h3 className='lightbluetext'>{t('realsunposition')}</h3>
+                        <h5 className='pinktext'>{t('realsuntime')} · 0 {t('yrs')} 11 {t('mos')}</h5>
+                        <h5 className='whitetext'>{t('realsundescription')}</h5>
+                    </Card.Body>
+                    </Accordion.Collapse>
+                </Card>
+
+                <Card bg ='dark' text='white' >
+                    <Card.Header>
+                    <Accordion.Toggle as={Card.Text} eventKey="0" >
+                        <Card.Img className="icon" src={newegg} />
                         {t('neweggtw')}
                     </Accordion.Toggle>
                     </Card.Header>
                     <Accordion.Collapse eventKey="0">
                     <Card.Body>
                         <h3 className='lightbluetext'>{t('neweggposition')}</h3>
-                        <h5 className='pinktext'>{t('neweggtwtime')}</h5>
+                        <h5 className='pinktext'>{t('neweggtwtime')} · 4 {t('yrs')} 1 {t('mos')}</h5>
                         <h5 className='whitetext'>{t('neweggtwdescription')}</h5>
                         <h5 className='whitetext'>{t('eipdescription')}</h5>
                         <h5 className='whitetext'>{t('boxdescription')}</h5>
