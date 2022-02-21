@@ -26,6 +26,20 @@ export default {
     'realsunposition':'系統工程師',
     'realsundescription':'● 維護與開發醫療相關桌面應用程式，使用C#、Windows Presentation Foundation (WPF)、Entity Framework(DB First)、MS SQL、RDLC',
     
+    'npu':'國立澎湖科技大學',
+    'activitesandsocieties':'活動與社團',
+    'exchangestudent':'● 曾至廈門集美大學電商管理系當一學期的交換學生',
+    'misdegree':'資訊管理學學士',
+    'nputime':'2010 - 2014',
+    'finalprojectteamleader':'● 畢業專題小組組長',
+    'ta':'● 助教',
+    'ciccc':'Cornerstone International Community College of Canada',
+    'maintainclassroom':'● 志工工作 維護電腦教室',
+    'ciccctime':'2019 - 2021',
+    'wmap':'Web 與 App 開發 非學位課程',
+    'education':'學歷',
+    
+
     'designedandbuilt':'由陳志嶄設計與建造',
     'portfoliousign':'使用 React, TypeScript, Bootstrap',
     'simplemusicnotesreaderdescription1':'一個給音樂家讀樂譜的Android App，你可以開啟一個 ',

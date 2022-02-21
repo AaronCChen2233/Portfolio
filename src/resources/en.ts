@@ -25,7 +25,21 @@ export default {
     'realsuntime':'Mar 2021 - Feb 2022',
     'realsunposition':'System Engineer',
     'realsundescription':'● Maintain and develop Hospital information system (HIS). Using C#, Windows Presentation Foundation (WPF), Entity Framework(DB First), MS SQL, RDLC',
-   
+
+    'npu':'National Penghu University of Science and Technology',
+    'activitesandsocieties':'Activities and societies',
+    'exchangestudent':'● JiMei University E-commerce department Exchange student',
+    'misdegree':'Bachelor\'s degree, Information Management',
+    'nputime':'2010 - 2014',
+    'finalprojectteamleader':'● Final project team leader',
+    'ta':'● Teacher assistant',
+    'ciccc':'Cornerstone International Community College of Canada',
+    'maintainclassroom':'● Volunteer-Maintain computer classroom',
+    'ciccctime':'2019 - 2021',
+    'wmap':'Web and Mobile App Development Diploma',
+    'education':'Education',
+    
+
     'designedandbuilt':'Designed and Built by Aaron Chen',
     'portfoliousign':'Using React, TypeScript, Bootstrap',
     'simplemusicnotesreaderdescription1':'An Android App for musicians to read music notes. You can open a ',

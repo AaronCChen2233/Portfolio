@@ -10,6 +10,7 @@ import Home from './Components/Home';
 import About from './Components/About';
 import Works from './Components/Works';
 import Experience from './Components/Experience';
+import Education from './Components/Education';
 import Footer from './Components/Footer';
 import { useI18n } from './i18n';
 // import enResume from './resources/resume/enResume.pdf'
@@ -34,6 +35,7 @@ const App: React.FC = () => {
             </NavDropdown>
             <a className="nav-link" href="/Portfolio/#about">{t('about')}</a>
             <a className="nav-link" href="/Portfolio/#experience">{t('experience')}</a>
+            <a className="nav-link" href="/Portfolio/#education">{t('education')}</a>
             <a className="nav-link" href="/Portfolio/#works">{t('works')}</a>
             <a className="nav-link" target="_blank" href={String(getLocale()) == "en" ? enpdf : zhpdf}>{t('resume')}</a>
             <a className="nav-link" href="mailto:aaronchen2233@gmail.com">{t('email')}</a>
@@ -42,9 +44,9 @@ const App: React.FC = () => {
               <img src={github} width="40" height="40" className="nav-link" alt="github" />
             </a>
 
-            <a className="iconlink" target="_blank" href="https://www.linkedin.com/in/aaron-chen-0b31b6190/">
+            {/* <a className="iconlink" target="_blank" href="https://www.linkedin.com/in/aaron-chen-0b31b6190/">
               <img src={linkedin} width="40" height="40" className="nav-link" alt="github" />
-            </a>
+            </a> */}
 
           </Nav>
         </Navbar.Collapse>
@@ -52,8 +54,8 @@ const App: React.FC = () => {
       <Home></Home>
       <About></About>
       <Experience></Experience>
+      <Education></Education>
       <Works></Works>
-
       <Footer></Footer>
     </Container>
     
