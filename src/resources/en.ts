@@ -1,5 +1,5 @@
 export default {
-    'hometitle': 'Hello, I am Aaron Chen. Software Engineer based in Taiwan',
+    'hometitle': 'Hello, I am Aaron Chen. Software Engineer in Taiwan',
     'about': 'About',
     'experience' : 'Experience',
     'works':'Works',
@@ -13,7 +13,7 @@ export default {
     'database':'Database',
     'developmenttools':'Development Tools',
     'versioncontroltools':'Version Control Tools',
-    'abouttitle':'  Hello, I am a software engineer with 5+ years of development experience including back-end, web front-end, Android, Windows desktop application. Have experience in back-end refactoring, requirement analysis, keep Code clean and readable and have the best performance, eager to learn and improve my skills.',
+    'abouttitle':'  Hello, I am a software engineer with 8+ years of development experience including back-end, web front-end, Android, Windows desktop application. Have experience in back-end refactoring, requirement analysis, keep Code clean and readable and have the best performance, eager to learn and improve my skills.',
     'neweggtw':'Newegg, Taipei, Taiwan',
     'neweggtwtime':'Sep 2014 - Sep 2018',
     'neweggposition':'Software Engineer',
@@ -61,7 +61,10 @@ export default {
     'multiplefilerename':'Multiple File Rename',
     'simplemusicnotesreader':'Simple Music Notes Reader',
     'versioncontroltoolskills':'Git, TFS',
-    
+    'devops':'DevOps',
+    'devopsskills':'Azure DevOps, Jenkins, Docker, Kubernetes',
+    'notion':'Notion',
+
     'musicreadertech':'Android Kotlin JavaScript MVVM',
     'multiplefilerenametech':'WPF .NET Framework C# MVVM',
     'sudokutech':'Swing java',

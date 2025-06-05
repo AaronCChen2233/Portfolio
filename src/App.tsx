@@ -24,7 +24,7 @@ const App: React.FC = () => {
   return (
     <Router>
     <Container className="p-0" fluid={true}>
-      <Navbar fixed="top" bg="dark" variant="dark" expand="sm">
+      <Navbar fixed="top" bg="secondary" variant="dark" expand="sm">
         <Navbar.Brand href="/Portfolio/#home">Aaron Chen</Navbar.Brand>
         <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
         <Navbar.Collapse id="navbar-toggle">
@@ -37,7 +37,9 @@ const App: React.FC = () => {
             <a className="nav-link" href="/Portfolio/#experience">{t('experience')}</a>
             <a className="nav-link" href="/Portfolio/#education">{t('education')}</a>
             <a className="nav-link" href="/Portfolio/#works">{t('works')}</a>
-            <a className="nav-link" target="_blank" href={String(getLocale()) == "en" ? enpdf : zhpdf}>{t('resume')}</a>
+            {/* <a className="nav-link" target="_blank" href={String(getLocale()) == "en" ? enpdf : zhpdf}>{t('resume')}</a>*/}
+            <a className="nav-link" target="_blank"  href="https://lunar-pyroraptor-62a.notion.site/1ac4f69954ca80f4a7bbe228b9023368?source=copy_link">{t('notion')}</a>
+            
             <a className="nav-link" href="mailto:aaronchen2233@gmail.com">{t('email')}</a>
      
             <a className="iconlink" target="_blank" href="https://github.com/AaronCChen2233">

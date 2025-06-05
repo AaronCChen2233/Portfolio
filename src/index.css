@@ -18,15 +18,15 @@ code {
 
 div.pages{
   min-height: calc(100vh - 56px);
-  background-color: #1D1D21;
+  background-color: #e2e1f0;
 }
 
 div#root{
-  background-color: #1D1D21;
+  background-color: #e2e1f0;
 }
 
 .fixed-top {
-  background-color: #2D2D2D;
+  background-color: #e2e1f0;
 }
 
 @keyframes appear {
@@ -48,7 +48,7 @@ div#root{
 
 .navbar-custom .navbar-brand, 
 .navbar-custom .navbar-text { 
-    color: white; 
+    color: #3C4F76; 
 } 
 
 div.card-deck{
@@ -61,19 +61,19 @@ div.horizontal{
 }
 
 .dropdown-menu.show {
-  background-color: #343a40;
+  background-color: #e2e1f0;
 }
 
 a.dropdown-item{
-  color: white; 
+  color: #3C4F76; 
 }
 
 a.dropdown-item:active{
-  background-color: #1D1D21;
+  background-color: #e2e1f0;
 }
 
 .card-body{
-  background-color: #1D1D21;
+  background-color: #e2e1f0;
 }
 
 a.iconlink{
@@ -113,7 +113,7 @@ h1.title{
 }
 
 .whitetext{
-  color: white;
+  color: #3C4F76;
 }
 
 .puplurtext{
@@ -121,15 +121,15 @@ h1.title{
 }
 
 .lightbluetext{
-  color: #33C7E2;
+  color: #799fec;
 }
 
 .pinktext{
-  color: #FF74AF;
+  color: #9c5623;
 }
 
 .greentext{
-  color: #ACF083;
+  color: #AB9F9D;
 }
 
 .picutre{
@@ -138,7 +138,7 @@ h1.title{
   margin-left: auto;
   margin-right: auto;
   display: block;
-  border: .4rem solid #fff;
+  border: .4rem solid #3C4F76;
 }
 
 .icon{

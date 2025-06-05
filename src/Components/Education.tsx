@@ -12,7 +12,7 @@ const Education: React.FC = () => {
             <h1 className='title lpten whitetext'>{t('education')}</h1>
 
             <Accordion className='lpten rpten tptwo' defaultActiveKey="0" >
-                <Card bg ='dark' text='white'  >
+                <Card bg ='secondary' text='white'  >
                     <Card.Header>
                     <Accordion.Toggle as={Card.Text} eventKey="0" >
                     <Card.Img className="icon" src={ciccc} />
@@ -29,7 +29,7 @@ const Education: React.FC = () => {
                     </Accordion.Collapse>
                 </Card>
 
-                <Card bg ='dark' text='white' >
+                <Card bg ='secondary' text='white' >
                     <Card.Header>
                     <Accordion.Toggle as={Card.Text} eventKey="0" >
                         <Card.Img className="icon" src={npu} />

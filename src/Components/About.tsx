@@ -31,6 +31,8 @@ const About: React.FC = () => {
                             <h5 className='whitetext'>{t('developtoolskills')}</h5>
                             <h4 className='pinktext'>{t('versioncontroltools')}</h4>
                             <h5 className='whitetext'>{t('versioncontroltoolskills')}</h5>
+                            <h4 className='pinktext'>{t('devops')}</h4>
+                            <h5 className='whitetext'>{t('devopsskills')}</h5>
                         </Container>
                     </Col>
                     <Col xs={12} md={5} >

@@ -30,7 +30,7 @@ class WorksCards extends React.Component<WorksCardsProps, {}>{
 
     render() {
         return (
-            <Card bg='dark' text='white'>
+            <Card bg='dark' text='dark'>
             <Card.Body>
             <Card.Title>{this.props.cardTitle}</Card.Title>
             <Card.Img variant="top" src={String(this.props.image)} />
