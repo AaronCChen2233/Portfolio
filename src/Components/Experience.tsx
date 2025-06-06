@@ -4,6 +4,7 @@ import Accordion from 'react-bootstrap/Accordion'
 import Card from 'react-bootstrap/Card'
 import newegg from '../resources/image/newegg.png'
 import realsun from '../resources/image/realsun.png'
+import yfy from '../resources/image/yfy.svg'
 
 const Experience: React.FC = () => {
     const { t, setLocale } = useI18n();
@@ -45,7 +46,23 @@ const Experience: React.FC = () => {
                     </Card.Body>
                     </Accordion.Collapse>
                 </Card>
-                
+
+                <Card bg ='secondary' text='white' >
+                    <Card.Header>
+                    <Accordion.Toggle as={Card.Text} eventKey="0" >
+                        <Card.Img className="icon" src={yfy} />
+                        {t('yfy')}
+                    </Accordion.Toggle>
+                    </Card.Header>
+                    <Accordion.Collapse eventKey="0">
+                    <Card.Body>
+                        <h3 className='lightbluetext'>{t('yfyposition')}</h3>
+                        <h5 className='pinktext'>{t('yfytime')}</h5>
+                        <h5 className='whitetext'>{t('webdescription')}</h5>
+                        <h5 className='whitetext'>{t('devopsdescription')}</h5>
+                    </Card.Body>
+                    </Accordion.Collapse>
+                </Card>
             </Accordion>
 
         </div>

@@ -25,6 +25,11 @@ export default {
     'realsuntime':'Mar 2021 - Feb 2022',
     'realsunposition':'System Engineer',
     'realsundescription':'● Maintain and develop Hospital information system (HIS). Using C#, Windows Presentation Foundation (WPF), Entity Framework(DB First), MS SQL, RDLC',
+    'yfy':'YFY Inc., Taipei, Taiwan',
+    'yfytime':'Apr 2022 - Present',
+    'yfyposition':'Second Level Specialist',
+    'webdescription':'● Develop internal web applications for the company. Such as Export System, Customs System, Customer Service System, IFRS. Using ASP.NET MVC, .NET(Core), Vue 3, Entity Framework, HTML, JQuery, JavaScript, MS SQL, RDLC',
+    'devopsdescription':'● Plan DevOps process. Using Azure DevOps, Jenkins, Git, MS Build, Reporting Services PowerShell, IIS, Kubernetes, Harbor, Notion',
 
     'npu':'National Penghu University of Science and Technology',
     'activitesandsocieties':'Activities and societies',

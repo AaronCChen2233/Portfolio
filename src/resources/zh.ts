@@ -25,7 +25,12 @@ export default {
     'realsuntime':'2021年3月 - 2022年2月',
     'realsunposition':'系統工程師',
     'realsundescription':'● 維護與開發醫療相關桌面應用程式，使用C#、Windows Presentation Foundation (WPF)、Entity Framework(DB First)、MS SQL、RDLC',
-    
+    'yfy':'永豐餘投資控股股份有限公司, 台灣, 台北',
+    'yfytime':'2022年4月 - 至今',
+    'yfyposition':'二級專員',
+    'webdescription':'● 開發供公司內部人使用網站 例如：外銷系統、關務系統、客服系統、IFRS，使用ASP.NET MVC、.NET(Core)、Vue 3、Entity、HTML、JQuery、JavaScript、MS SQL、RDLC',
+    'devopsdescription':'● 規劃DevOps流程使用Azure DevOps、Jenkins、Git、MS Build、Reporting Services PowerShell、IIS、Kubernetes、Harbor、Notion',
+
     'npu':'國立澎湖科技大學',
     'activitesandsocieties':'活動與社團',
     'exchangestudent':'● 曾至廈門集美大學電商管理系當一學期的交換學生',
