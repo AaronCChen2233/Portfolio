@@ -20,13 +20,11 @@ const Experience: React.FC = () => {
                         {t('realsun')}
                     </Accordion.Toggle>
                     </Card.Header>
-                    <Accordion.Collapse eventKey="0">
                     <Card.Body>
                         <h3 className='lightbluetext'>{t('realsunposition')}</h3>
                         <h5 className='pinktext'>{t('realsuntime')} · 0 {t('yrs')} 11 {t('mos')}</h5>
                         <h5 className='whitetext'>{t('realsundescription')}</h5>
                     </Card.Body>
-                    </Accordion.Collapse>
                 </Card>
 
                 <Card bg ='secondary' text='white' >
@@ -36,7 +34,6 @@ const Experience: React.FC = () => {
                         {t('neweggtw')}
                     </Accordion.Toggle>
                     </Card.Header>
-                    <Accordion.Collapse eventKey="0">
                     <Card.Body>
                         <h3 className='lightbluetext'>{t('neweggposition')}</h3>
                         <h5 className='pinktext'>{t('neweggtwtime')} · 4 {t('yrs')} 1 {t('mos')}</h5>
@@ -44,7 +41,6 @@ const Experience: React.FC = () => {
                         <h5 className='whitetext'>{t('eipdescription')}</h5>
                         <h5 className='whitetext'>{t('boxdescription')}</h5>
                     </Card.Body>
-                    </Accordion.Collapse>
                 </Card>
 
                 <Card bg ='secondary' text='white' >
@@ -54,14 +50,12 @@ const Experience: React.FC = () => {
                         {t('yfy')}
                     </Accordion.Toggle>
                     </Card.Header>
-                    <Accordion.Collapse eventKey="0">
                     <Card.Body>
                         <h3 className='lightbluetext'>{t('yfyposition')}</h3>
                         <h5 className='pinktext'>{t('yfytime')}</h5>
                         <h5 className='whitetext'>{t('webdescription')}</h5>
                         <h5 className='whitetext'>{t('devopsdescription')}</h5>
                     </Card.Body>
-                    </Accordion.Collapse>
                 </Card>
             </Accordion>
 

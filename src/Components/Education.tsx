@@ -19,14 +19,12 @@ const Education: React.FC = () => {
                         {t('ciccc')}
                     </Accordion.Toggle>
                     </Card.Header>
-                    <Accordion.Collapse eventKey="0">
                     <Card.Body>
                         <h3 className='lightbluetext'>{t('wmap')}</h3>
                         <h5 className='pinktext'>{t('ciccctime')}</h5>
                         <h5 className='whitetext'>{t('activitesandsocieties')}</h5>
                         <h5 className='whitetext'>{t('maintainclassroom')}</h5>
                     </Card.Body>
-                    </Accordion.Collapse>
                 </Card>
 
                 <Card bg ='secondary' text='white' >
@@ -36,7 +34,6 @@ const Education: React.FC = () => {
                         {t('npu')}
                     </Accordion.Toggle>
                     </Card.Header>
-                    <Accordion.Collapse eventKey="0">
                     <Card.Body>
                         <h3 className='lightbluetext'>{t('misdegree')}</h3>
                         <h5 className='pinktext'>{t('nputime')}</h5>
@@ -45,7 +42,6 @@ const Education: React.FC = () => {
                         <h5 className='whitetext'>{t('finalprojectteamleader')}</h5>
                         <h5 className='whitetext'>{t('ta')}</h5>
                     </Card.Body>
-                    </Accordion.Collapse>
                 </Card>
                 
             </Accordion>

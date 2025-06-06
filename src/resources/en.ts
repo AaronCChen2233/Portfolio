@@ -2,7 +2,7 @@ export default {
     'hometitle': 'Hello, I am Aaron Chen. Software Engineer in Taiwan',
     'about': 'About',
     'experience' : 'Experience',
-    'works':'Works',
+    'works':'Works and Projects',
     'email':'Email',
     'resume':'Resume',
     'language':'語言',

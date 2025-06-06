@@ -2,7 +2,7 @@ export default {
     'hometitle': '您好，我是 陳志嶄。 在 台灣 的軟體工程師',
     'about': '關於',
     'experience' : '經驗',
-    'works':'作品',
+    'works':'作品與專案',
     'email':'信箱',
     'resume':'履歷',
     'language':'Language',
