@@ -26,28 +26,28 @@ const Works: React.FC = () => {
                     <a href='https://www.musicxml.com/' target="_blank">.MusicXML</a>
                     {t('simplemusicnotesreaderdescription2')}
                 </p>
-                <h6 className='lightbluetext'>{t('musicreadertech')}</h6>
+                <h6 className='lightbluetext'>{t('android')} {t('kotlin')} {t('javascript')} {t('mvvm')}</h6>
             </WorksCards>
 
             <WorksCards buttonText={t('viewgithub')} cardTitle={t('multiplefilerename')} gitUri="https://github.com/AaronCChen2233/--Portfolio--Multiple_File_Rename" image={multiplefilerenameimage}>
                 <p>
                     {t('multiplefilerenamedescription')}
                 </p>
-                <h6 className='lightbluetext'>{t('multiplefilerenametech')}</h6>
+                <h6 className='lightbluetext'>{t('wpf')} {t('.net')} {t('csharp')} {t('mvvm')}</h6>
             </WorksCards>
 
             <WorksCards buttonText={t('viewgithub')} cardTitle={t('sudoku')} gitUri="https://github.com/AaronCChen2233/--Portfolio--SUDOKU" image={sudokuimage}>
                 <p>
                     {t('sudokudescription')}
                 </p>
-                <h6 className='lightbluetext'>{t('sudokutech')}</h6>
+                <h6 className='lightbluetext'>{t('swing')} {t('java')}</h6>
             </WorksCards>
 
             <WorksCards buttonText={t('viewgithub')} cardTitle={t('clipboardtranslator')} gitUri="https://github.com/AaronCChen2233/--Portfolio--ClipboardTranslator" image={clipboardtranslatorimage}>
                 <p>
                     {t('clipboardtranslatordescription')}
                 </p>
-                <h6 className='lightbluetext'>{t('clipboardtranslatortech')}</h6>
+                <h6 className='lightbluetext'>{t('swing')} {t('java')}</h6>
             </WorksCards>
 
             </CardColumns>
