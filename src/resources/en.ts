@@ -48,8 +48,6 @@ export default {
     'ciccctime':'2019 - 2021',
     'wmap':'Web and Mobile App Development Diploma',
     'education':'Education',
-    
-
     'designedandbuilt':'Designed and Built by Aaron Chen',
     'portfoliousign':'Using React, TypeScript, Bootstrap',
     'simplemusicnotesreaderdescription1':'An Android App for musicians to read music notes. You can open a ',
@@ -57,6 +55,22 @@ export default {
     'multiplefilerenamedescription':'A Windows Desktop App. you can rename multiple files. There have three methods for rename. Replace, remove and add characters.',
     'sudokudescription':'A Windows Desktop App. This app can generate random Sudoku question. Have GUI for player play Sudoku. You can choose difficulty. When you finish the sudoku question the timer will stop.',
     'clipboardtranslatordescription':'A Windows Desktop App. This app is a translator. When you copy a vocabulary it will jump a small window at the corner. Which will show you the information and translation about that vocabulary you have copied.',
+    'chpiscss':'Customer Service System',
+    'chpiscssd':'Manage customer service projects, manage documents related to the processing matters, etc., connect to Team+ to handle customer service projects.',
+
+    'hcisipcs':'Customs system',
+    'hcisipcsd':'Handle import-related business and reports.',
+    'hcismaia':'AI Meeting assistant system',
+    'hcismaiad':'Use',
+    'yating':'Yating',
+    'hcismaiad2':'speech-to-text service and OpenAI to convert the transcript of the meeting into a summary.',
+    'hcisens':'Emergency notification system',
+    'hcisensd':'For factory personnel to report emergency events and send SMS or Email to relevant persons.',
+    'hcisifrs':'IFRS system',
+    'hcisifrsd':'Consolidate the financial statements of subsidiaries within the group in accordance with the International Financial Reporting Standards (IFRS).',
+    'hcisoha':'Yfy 100 Anniversary',
+    'hcisohad':'Assist users of the IT system for Yfy 100 Anniversary Celebration to solve problems and handle special needs.',
+    
     'viewgithub':'View GitHub',
     'yrs':'yrs',
     'mos':'mos',
@@ -108,7 +122,7 @@ export default {
     'rdlc':'RDLC',
     'teamplus':'TeamPlus API',
     'azure':'Azure',
-    'yating':'Yating API',
+    'yatingapi':'Yating API',
     'openai':'OpenAI API',
     'sms':'SMS API',
     'mailserver':'Mail Server',
@@ -118,9 +132,4 @@ export default {
     'multiplefilerename':'Multiple File Rename',
     'simplemusicnotesreader':'Simple Music Notes Reader',
     'notion':'Notion',
-
-    //'musicreadertech':'Android Kotlin JavaScript MVVM',
-    //'multiplefilerenametech':'WPF .NET Framework C# MVVM',
-    //'sudokutech':'Swing java',
-    //'clipboardtranslatortech':'Swing java'
 };

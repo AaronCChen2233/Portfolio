@@ -48,8 +48,6 @@ export default {
     'ciccctime':'2019 - 2021',
     'wmap':'Web 與 App 開發 非學位課程',
     'education':'學歷',
-    
-
     'designedandbuilt':'由陳志嶄設計與建造',
     'portfoliousign':'使用 React, TypeScript, Bootstrap',
     'simplemusicnotesreaderdescription1':'一個給音樂家讀樂譜的Android App，你可以開啟一個 ',
@@ -57,6 +55,21 @@ export default {
     'multiplefilerenamedescription':'一個你可以批次幫檔案改名的 Windows 桌面軟體，一共有三種改名方法，取代，刪除與新增字元。',
     'sudokudescription':'一個能隨機產生數獨問題的 Windows 桌面軟體，有使用者介面可使使用者玩數獨，可選擇難度，當你完成時計時器會自動暫停。',
     'clipboardtranslatordescription':'一個翻譯的 Windows 桌面軟體，當你複製一個單字時會在角落跳出一個小視窗，上面會顯示關於這個單字的相關資訊與翻譯。',
+    'chpiscss':'客服系統',
+    'chpiscssd':'管理客服專案，管理處理事項相關文件等，連接Team+處理客服專案',
+    'hcisipcs':'關務系統',
+    'hcisipcsd':'處理進口相關業務與統計報表',
+    'hcismaia':'智能會議助理',
+    'hcismaiad':'使用雅婷語音轉文字服務與OpenAI，將會議內容逐字稿轉成謫要',
+    'yating':'雅婷',
+    'hcismaiad2':'語音轉文字服務與OpenAI，將會議內容逐字稿轉成謫要',
+    'hcisens':'緊急重大事件通報',
+    'hcisensd':'供廠內人員通報緊急重大事件，並傳簡訊、Email通報給相關人士',
+    'hcisifrs':'IFRS集團合併報表系統',
+    'hcisifrsd':'將集團內子公司財務報表依International Financial Reporting Standards (國際財務報導準則)合併',
+    'hcisoha':'永豐餘百年慶',
+    'hcisohad':'協助永豐餘百年慶活動IT系統使用者疑問與故障排除，處理特殊需求',
+    
     'viewgithub':'查看 GitHub',
     'yrs':'年',
     'mos':'個月',
@@ -108,7 +121,7 @@ export default {
     'rdlc':'RDLC',
     'teamplus':'TeamPlus API',
     'azure':'Azure',
-    'yating':'Yating API',
+    'yatingapi':'Yating API',
     'openai':'OpenAI API',
     'sms':'SMS API',
     'mailserver':'Mail Server',
@@ -118,9 +131,4 @@ export default {
     'clipboardtranslator':'Clipboard Translator',
     'multiplefilerename':'Multiple File Rename',
     'simplemusicnotesreader':'Simple Music Notes Reader',
-
-    //'musicreadertech':'Android Kotlin JavaScript MVVM',
-    //'multiplefilerenametech':'WPF .NET Framework C# MVVM',
-    //'sudokutech':'Swing java',
-    //'clipboardtranslatortech':'Swing java'
 };
