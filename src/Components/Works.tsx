@@ -50,6 +50,50 @@ const Works: React.FC = () => {
                 <h6 className='lightbluetext'>{t('swing')} {t('java')}</h6>
             </WorksCards>
 
+            <WorksCards buttonText={''} cardTitle={t('chpiscss')} gitUri="" image="">
+                <p>
+                    {t('chpiscssd')}
+                </p>
+                <h6 className='lightbluetext'>{t('aspnetmvc')} {t('javascript')} {t('teamplus')} {t('mss')}</h6>
+            </WorksCards>
+          
+            <WorksCards buttonText={''} cardTitle={t('hcisipcs')} gitUri="" image="">
+                <p>
+                    {t('hcisipcsd')}
+                </p>
+                <h6 className='lightbluetext'>{t('aspnetmvc')} {t('javascript')} {t('mss')} {t('rdlc')}</h6>
+            </WorksCards>
+
+            <WorksCards buttonText={''} cardTitle={t('hcismaia')} gitUri="" image="">
+                <p>
+                    {t('hcismaiad')}
+                    <a href='https://asr.yating.tw' target="_blank">{t('yating')}</a>
+                    {t('hcismaiad2')}
+                </p>
+                <h6 className='lightbluetext'>{t('openai')} {t('yatingapi')} {t('azure')} {t('vue')} {t('aspnetcore')}</h6>
+            </WorksCards>
+
+            <WorksCards buttonText={''} cardTitle={t('hcisens')} gitUri="" image="">
+                <p>
+                    {t('hcisensd')}
+                </p>
+                <h6 className='lightbluetext'>{t('aspnetmvc')} {t('mss')} {t('mailserver')} {t('sms')}</h6>
+            </WorksCards>
+
+            <WorksCards buttonText={''} cardTitle={t('hcisifrs')} gitUri="" image="">
+                <p>
+                    {t('hcisifrsd')}
+                </p>
+                <h6 className='lightbluetext'>{t('aspnetmvc')} {t('mss')} {t('rdlc')}</h6>
+            </WorksCards>
+
+            <WorksCards buttonText={''} cardTitle={t('hcisoha')} gitUri="" image="">
+                <p>
+                    {t('hcisohad')}
+                </p>
+                <h6 className='lightbluetext'>{t('aspnetcore')} {t('mss')} {t('rdlc')}</h6>
+            </WorksCards>
+
             </CardColumns>
         </div>
     );

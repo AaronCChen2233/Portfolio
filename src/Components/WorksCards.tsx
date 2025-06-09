@@ -35,7 +35,9 @@ class WorksCards extends React.Component<WorksCardsProps, {}>{
             <Card.Title>{this.props.cardTitle}</Card.Title>
             <Card.Img variant="top" src={String(this.props.image)} />
             {this.props.children}
-            <Button target="_blank" href={this.props.gitUri} variant="primary">{this.props.buttonText}</Button>
+            {(this.props.buttonText !== '' && this.props.gitUri !== '') ? (
+                <Button target="_blank" href={this.props.gitUri} variant="primary">{this.props.buttonText}</Button>
+            ) : (null)}
             </Card.Body>
             </Card>
         );
