@@ -18,7 +18,9 @@ export default {
     'personaltraits':'Personal Traits',
     'personaltraitslist':'Creative, Insightful, Teamwork, Kind, Brave, Approachable',
     'learntube':'Learning Channels',
-    'learntubedescription':'Podcast, Reading, Online Courses, Technical Sharing, Research',
+    'learntubedescription':'Online Courses, Technical Sharing, Research',
+    'podcast':'Podcast',
+    'reading':'Reading',
 
     'neweggtw':'Newegg, Taipei, Taiwan',
     'neweggtwtime':'Sep 2014 - Sep 2018',

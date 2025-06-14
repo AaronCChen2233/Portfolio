@@ -18,7 +18,9 @@ export default {
     'personaltraits':'個人特質',
     'personaltraitslist':'創意創新、洞察力強、團隊合作佳、個性善良勇敢、平易近人',
     'learntube':'能力提升學習管道',
-    'learntubedescription':'Podcast、閱讀、線上課程、技術分享、研究',
+    'learntubedescription':'線上課程, 技術分享, 研究',
+    'podcast':'Podcast',
+    'reading':'閱讀',
 
     'neweggtw':'台灣新蛋, 台灣, 台北',
     'neweggtwtime':'2014年9月 - 2018年9月',

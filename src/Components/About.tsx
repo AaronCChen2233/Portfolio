@@ -53,7 +53,21 @@ const About: React.FC = () => {
                 </Row>
             </Container>
             <h3 className='lpten rpten tptwo whitetext lightbluetext'>{t('learntube')}</h3>
-            <h5 className='lpten rpten tptwo whitetext'>{t('learntubedescription')}</h5>
+            
+            <h5 className='lpten tptwo d-inline-block whitetext'>
+                <a href='https://lunar-pyroraptor-62a.notion.site/Podcast-20c4f69954ca80299294c44b4370d8dd' target="_blank"> {t('podcast')}</a>
+            </h5>
+            <h5 className='d-inline-block whitetext'>
+                ,&nbsp;
+            </h5>
+            <h5 className='d-inline-block whitetext'>
+                <a href='https://lunar-pyroraptor-62a.notion.site/20c4f69954ca8048bb04d92ca62cbb2e' target="_blank">{t('reading')}</a>
+            </h5>
+              <h5 className='d-inline-block whitetext'>
+                ,&nbsp;
+            </h5>
+            <h5 className='d-inline-block whitetext'>{t('learntubedescription')}</h5>
+       
         </div>
     );
   }
