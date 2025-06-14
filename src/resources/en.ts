@@ -13,7 +13,8 @@ export default {
     'database':'Database',
     'developmenttools':'Development Tools',
     'versioncontroltools':'Version Control Tools',
-    'abouttitle':'  Hello, I am a software engineer with 8+ years of development experience including DevOps, back-end, web front-end, Windows desktop application. Have experience in back-end refactoring, requirement analysis, keep Code clean and readable and have the best performance, eager to learn and improve my skills.',
+    'abouttitle':'  Hello, I am a software engineer with ',
+    'abouttitle1':'  + years of development experience including DevOps, back-end, web front-end, Windows desktop application. Have experience in back-end refactoring, requirement analysis, keep Code clean and readable and have the best performance, eager to learn and improve my skills.',
     'personaltraits':'Personal Traits',
     'personaltraitslist':'Creative, Insightful, Teamwork, Kind, Brave, Approachable',
     'learntube':'Learning Channels',
@@ -34,7 +35,7 @@ export default {
     'yfytime':'Apr 2022 - Present',
     'yfyposition':'Second Level Specialist',
     'webdescription':'● Develop internal web applications for the company. Such as Export System, Customs System, Customer Service System, IFRS. Using ASP.NET MVC, .NET(Core), Vue 3, Entity Framework, HTML, JQuery, JavaScript, MS SQL, RDLC',
-    'devopsdescription':'● Plan DevOps process. Using Azure DevOps, Jenkins, Git, MS Build, Reporting Services PowerShell, IIS, Kubernetes, Harbor, Notion',
+    'devopsdescription':'● Plan DevOps process. Using Azure DevOps, Jenkins, Git, MSBuild, Reporting Services PowerShell, IIS, Kubernetes, Harbor, Notion',
 
     'npu':'National Penghu University of Science and Technology',
     'activitesandsocieties':'Activities and societies',
@@ -125,7 +126,7 @@ export default {
     'yatingapi':'Yating API',
     'openai':'OpenAI API',
     'sms':'SMS API',
-    'mailserver':'Mail Server',
+    'mailserver':'SMTP',
 
     'sudoku':'SUDOKU',
     'clipboardtranslator':'Clipboard Translator',

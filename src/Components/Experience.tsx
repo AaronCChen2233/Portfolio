@@ -4,15 +4,31 @@ import Accordion from 'react-bootstrap/Accordion'
 import Card from 'react-bootstrap/Card'
 import newegg from '../resources/image/newegg.png'
 import realsun from '../resources/image/realsun.png'
-import yfy from '../resources/image/yfy.svg'
+import yfy from '../resources/image/yfy.png'
 
 const Experience: React.FC = () => {
     const { t, setLocale } = useI18n();
+    
     return (
         <div className="pages" id="experience">
             <h1 className='title lpten whitetext'>{t('experience')}</h1>
 
             <Accordion className='lpten rpten tptwo' defaultActiveKey="0" >
+                              <Card bg ='secondary' text='white' >
+                    <Card.Header>
+                    <Accordion.Toggle as={Card.Text} eventKey="0" >
+                        <Card.Img className="icon" src={yfy} />
+                        {t('yfy')}
+                    </Accordion.Toggle>
+                    </Card.Header>
+                    <Card.Body>
+                        <h3 className='lightbluetext'>{t('yfyposition')}</h3>
+                        <h5 className='pinktext'>{t('yfytime')}</h5>
+                        <h5 className='whitetext'>{t('webdescription')}</h5>
+                        <h5 className='whitetext'>{t('devopsdescription')}</h5>
+                    </Card.Body>
+                </Card>
+
                 <Card bg ='secondary' text='white'  >
                     <Card.Header>
                     <Accordion.Toggle as={Card.Text} eventKey="0" >
@@ -22,7 +38,7 @@ const Experience: React.FC = () => {
                     </Card.Header>
                     <Card.Body>
                         <h3 className='lightbluetext'>{t('realsunposition')}</h3>
-                        <h5 className='pinktext'>{t('realsuntime')} · 0 {t('yrs')} 11 {t('mos')}</h5>
+                        <h5 className='pinktext'>{t('realsuntime')} · 11 {t('mos')}</h5>
                         <h5 className='whitetext'>{t('realsundescription')}</h5>
                     </Card.Body>
                 </Card>
@@ -43,20 +59,7 @@ const Experience: React.FC = () => {
                     </Card.Body>
                 </Card>
 
-                <Card bg ='secondary' text='white' >
-                    <Card.Header>
-                    <Accordion.Toggle as={Card.Text} eventKey="0" >
-                        <Card.Img className="icon" src={yfy} />
-                        {t('yfy')}
-                    </Accordion.Toggle>
-                    </Card.Header>
-                    <Card.Body>
-                        <h3 className='lightbluetext'>{t('yfyposition')}</h3>
-                        <h5 className='pinktext'>{t('yfytime')}</h5>
-                        <h5 className='whitetext'>{t('webdescription')}</h5>
-                        <h5 className='whitetext'>{t('devopsdescription')}</h5>
-                    </Card.Body>
-                </Card>
+  
             </Accordion>
 
         </div>

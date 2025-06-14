@@ -8,10 +8,18 @@ import Col from 'react-bootstrap/Col'
 
 const About: React.FC = () => {
     const { t, setLocale } = useI18n();
+
+    const Experience = () => {
+        const startYear = 2017; 
+        const currentYear = new Date().getFullYear();
+        const yearsOfExperience = currentYear - startYear;
+
+        return (yearsOfExperience);
+    };
     return (
         <div className="pages" id="about">
             <h1 className='title lpten whitetext'>{t('about')}</h1>
-            <h6 className='lpten rpten tptwo whitetext'>{t('abouttitle')}</h6>
+            <h6 className='lpten rpten tptwo whitetext'>{t('abouttitle')} {Experience()} {t('abouttitle1')}</h6>
             <h3 className='lpten rpten tptwo whitetext lightbluetext'>{t('personaltraits')}</h3>
             <h5 className='lpten rpten tptwo whitetext'>{t('personaltraitslist')}</h5>
             <br></br>
