@@ -1,0 +1,30 @@
+import { defineConfig } from 'vite'
+import vue from '@vitejs/plugin-vue'
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [vue()],
+  base: '/',
+  server: {
+    host: true,
+    port: 5174
+  },
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+    sourcemap: false,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          vue: ['vue'],
+          router: ['vue-router'],
+          i18n: ['vue-i18n'],
+          gsap: ['gsap']
+        }
+      }
+    }
+  },
+  optimizeDeps: {
+    include: ['vue', 'vue-router', 'vue-i18n', 'gsap']
+  }
+})
