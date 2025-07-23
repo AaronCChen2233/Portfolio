@@ -97,8 +97,8 @@ export default {
     })
 
     const schoolLogos = {
-      0: '/school-logos/ciccc.png',  // CICCC
-      1: '/school-logos/npu.png'     // 澎湖科技大學
+      0: 'Portfolio/school-logos/ciccc.png',  // CICCC
+      1: 'Portfolio/school-logos/npu.png'     // 澎湖科技大學
     }
 
     const getSchoolLogo = (index) => {

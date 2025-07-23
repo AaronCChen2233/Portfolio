@@ -63,8 +63,8 @@
 
 1. **個人資訊**: 編輯 `src/i18n/index.js`
 2. **頭像**: 替換 `public/avatar.svg`
-3. **專案圖片**: 新增到 `public/project-images/`
-4. **公司/學校 Logo**: 新增到 `public/company-logos/` 和 `public/school-logos/`
+3. **專案圖片**: 新增到 `publicPortfolio/project-images/`
+4. **公司/學校 Logo**: 新增到 `publicPortfolio/company-logos/` 和 `public/Portfolio/school-logos/`
 
 ### 🎯 技術棧
 

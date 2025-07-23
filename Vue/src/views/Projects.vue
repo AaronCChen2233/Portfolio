@@ -174,16 +174,16 @@ export default {
     })
 
     const projectImages = {
-      0: '/project-images/simplemusicnotesreader.png',
-      1: '/project-images/multiplefilerename.png',
-      2: '/project-images/sudoku.png',
-      3: '/project-images/clipboardtranslator.png',
-      4: '/project-images/chpis.png', // 客服系統 - 可以添加圖片路徑
-      5: '/project-images/hcis.png', // 關務系統 - 可以添加圖片路徑
-      6: '/project-images/hcis.png', // 智能會議助理 - 可以添加圖片路徑
-      7: '/project-images/hcis.png', // 緊急重大事件通報 - 可以添加圖片路徑
-      8: '/project-images/hcis.png', // IFRS集團合併報表系統 - 可以添加圖片路徑
-      9: '/project-images/100th.png'  // 永豐餘百年慶 - 可以添加圖片路徑
+      0: 'Portfolio/project-images/simplemusicnotesreader.png',
+      1: 'Portfolio/project-images/multiplefilerename.png',
+      2: 'Portfolio/project-images/sudoku.png',
+      3: 'Portfolio/project-images/clipboardtranslator.png',
+      4: 'Portfolio/project-images/chpis.png', // 客服系統 - 可以添加圖片路徑
+      5: 'Portfolio/project-images/hcis.png', // 關務系統 - 可以添加圖片路徑
+      6: 'Portfolio/project-images/hcis.png', // 智能會議助理 - 可以添加圖片路徑
+      7: 'Portfolio/project-images/hcis.png', // 緊急重大事件通報 - 可以添加圖片路徑
+      8: 'Portfolio/project-images/hcis.png', // IFRS集團合併報表系統 - 可以添加圖片路徑
+      9: 'Portfolio/project-images/100th.png'  // 永豐餘百年慶 - 可以添加圖片路徑
     }
 
     const getProjectImage = (index) => {

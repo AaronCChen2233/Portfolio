@@ -101,9 +101,9 @@ export default {
     })
 
     const companyLogos = {
-      0: '/company-logos/yfy.png',       // 永豐餘 (二級專員)
-      1: '/company-logos/realsun.png',  // 耀聖資訊 (系統工程師)
-      2: '/company-logos/newegg.png'     // 台灣新蛋 (軟體工程師)
+      0: 'Portfolio/company-logos/yfy.png',       // 永豐餘 (二級專員)
+      1: 'Portfolio/company-logos/realsun.png',  // 耀聖資訊 (系統工程師)
+      2: 'Portfolio/company-logos/newegg.png'     // 台灣新蛋 (軟體工程師)
     }
 
     const getCompanyLogo = (index) => {
