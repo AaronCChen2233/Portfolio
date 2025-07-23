@@ -1,3 +1,16 @@
-# https://www.robotstxt.org/robotstxt.html
+# Allow all web crawlers
 User-agent: *
-Disallow:
+Allow: /
+
+# Disallow access to development files
+Disallow: /src/
+Disallow: *.bat
+Disallow: *.sh
+Disallow: /node_modules/
+Disallow: /dist/
+
+# Sitemap location
+Sitemap: https://aaroncchen2233.github.io/Portfolio/sitemap.xml
+
+# Crawl delay (optional - prevents overwhelming server)
+Crawl-delay: 1
