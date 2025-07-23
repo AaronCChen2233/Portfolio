@@ -17,7 +17,6 @@ export default defineConfig({
       output: {
         manualChunks: {
           vue: ['vue'],
-          router: ['vue-router'],
           i18n: ['vue-i18n'],
           gsap: ['gsap']
         }
@@ -25,6 +24,6 @@ export default defineConfig({
     }
   },
   optimizeDeps: {
-    include: ['vue', 'vue-router', 'vue-i18n', 'gsap']
+    include: ['vue', 'vue-i18n', 'gsap']
   }
 })
