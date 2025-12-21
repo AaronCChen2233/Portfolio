@@ -26,7 +26,7 @@
             <img src="/github-logo.svg" alt="GitHub" class="contact-icon-svg" />
             {{ $t('contact.github') }}
           </a>
-          <a href="https://lunar-pyroraptor-62a.notion.site/1ac4f69954ca80f4a7bbe228b9023368" target="_blank" class="contact-item">
+          <a href="https://factual-museum-eac.notion.site/25e473e8df57815dbf2ee3aefa9e069b" target="_blank" class="contact-item">
             <img src="/notion-logo.svg" alt="Notion" class="contact-icon-svg" />
             {{ $t('contact.notion') }}
           </a>

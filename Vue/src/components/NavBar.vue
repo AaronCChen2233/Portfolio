@@ -30,7 +30,7 @@
             <a href="https://github.com/AaronCChen2233" target="_blank" class="contact-link" title="GitHub" @click="closeMenu">
               <img src="/github-logo.svg" alt="GitHub" class="icon-svg" />
             </a>
-            <a href="https://lunar-pyroraptor-62a.notion.site/1ac4f69954ca80f4a7bbe228b9023368" target="_blank" class="contact-link" :title="$t('contact.notion')" @click="closeMenu">
+            <a href="https://factual-museum-eac.notion.site/25e473e8df57815dbf2ee3aefa9e069b" target="_blank" class="contact-link" :title="$t('contact.notion')" @click="closeMenu">
               <img src="/notion-logo.svg" alt="Notion" class="icon-svg" />
             </a>
           </div>
