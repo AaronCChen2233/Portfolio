@@ -86,6 +86,7 @@ const messages = {
     education: {
       title: '學歷',
       activitiesTitle: '活動與成就',
+      activitiesSectionTitle: '活動與比賽',
       nonDegreeBadge: '非學位課程',
       bachelorBadge: '學士學位',
       schools: [
@@ -106,6 +107,14 @@ const messages = {
             '畢業專題小組組長',
             '助教'
           ]
+        }
+      ],
+      competitions: [
+        {
+          title: 'GitHub Copilot 應用競賽',
+          period: '2025年7月',
+          description: '參加永豐餘公司內部舉辦GitHub Copilot 競賽，運用GitHub Copilot功能包括自動完成、說明與註解、程式優化重構、測試資料、其他功能等共15項應用',
+          result: '成果：獲得第二名並與全公司分享應用情境。'
         }
       ]
     },
@@ -282,6 +291,7 @@ const messages = {
     education: {
       title: 'Education',
       activitiesTitle: 'Activities & Achievements',
+      activitiesSectionTitle: 'Activities & Competitions',
       nonDegreeBadge: 'Non-degree Program',
       bachelorBadge: 'Bachelor Degree',
       schools: [
@@ -302,6 +312,14 @@ const messages = {
             'Graduation project team leader',
             'Teaching assistant'
           ]
+        }
+      ],
+      competitions: [
+        {
+          title: 'GitHub Copilot Application Competition',
+          period: 'July 2025',
+          description: 'Participated in an internal GitHub Copilot competition held by YFY, utilizing 15 Copilot features including autocomplete, explanations & comments, code optimization/refactoring, test data, and others.',
+          result: 'Result: Secured second place and shared usage scenarios across the company.'
         }
       ]
     },

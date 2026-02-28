@@ -52,7 +52,8 @@
           </div>
         </div>
 
-
+        <!-- 活動與比賽區塊由 Event 組件處理 -->
+        <Event />
       </div>
     </section>
   </div>
@@ -62,9 +63,13 @@
 import { ref, onMounted, computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { useAnimations } from '../composables/useAnimations'
+import Event from './Event.vue'
 
 export default {
   name: 'Education',
+  components: {
+    Event
+  },
   setup() {
     const { t } = useI18n()
     const title = ref(null)
@@ -95,6 +100,7 @@ export default {
         }
       ]
     })
+
 
     const schoolLogos = {
       0: 'Portfolio/school-logos/ciccc.png',  // CICCC
