@@ -87,7 +87,6 @@ const messages = {
     education: {
       title: '學歷',
       activitiesTitle: '活動與成就',
-      activitiesSectionTitle: '活動與比賽',
       nonDegreeBadge: '非學位課程',
       bachelorBadge: '學士學位',
       schools: [
@@ -109,8 +108,11 @@ const messages = {
             '助教'
           ]
         }
-      ],
-      competitions: [
+      ]
+    },
+    events: {
+      sectionTitle: '活動與比賽',
+      items: [
         {
           title: 'GitHub Copilot 應用競賽',
           period: '2025年7月',
@@ -293,7 +295,6 @@ const messages = {
     education: {
       title: 'Education',
       activitiesTitle: 'Activities & Achievements',
-      activitiesSectionTitle: 'Activities & Competitions',
       nonDegreeBadge: 'Non-degree Program',
       bachelorBadge: 'Bachelor Degree',
       schools: [
@@ -316,7 +317,10 @@ const messages = {
           ]
         }
       ],
-      competitions: [
+    },
+    events: {
+      sectionTitle: 'Activities & Competitions',
+      items: [
         {
           title: 'GitHub Copilot Application Competition',
           period: 'July 2025',
