@@ -12,8 +12,8 @@
             :ref="el => eventCards[idx] = el"
           >
             <div class="card-header">
-              <div class="school-info">
-                <h3 class="school-name">{{ item.title }}</h3>
+              <div class="event-info">
+                <h3 class="event-name">{{ item.title }}</h3>
                 <p class="period">{{ item.period }}</p>
               </div>
             </div>
@@ -58,7 +58,6 @@ export default {
 
     onMounted(() => {
       fadeInUp(title.value)
-
       eventCards.value.forEach((card, index) => {
         if (card) {
           if (index % 2 === 0) {
@@ -138,11 +137,11 @@ export default {
   margin-bottom: 25px;
 }
 
-.school-info {
+.event-info {
   flex: 1;
 }
 
-.school-name {
+.event-name {
   font-size: 1.3rem;
   color: #2c3e50;
   font-weight: 700;
@@ -174,7 +173,7 @@ export default {
     gap: 15px;
   }
 
-  .school-name {
+  .event-name {
     font-size: 1.2rem;
   }
 
@@ -193,7 +192,7 @@ export default {
     gap: 10px;
   }
 
-  .school-name {
+  .event-name {
     font-size: 1.1rem;
   }
 
@@ -203,8 +202,7 @@ export default {
 }
 
 /* 動畫效果 */
-.event-card:hover .school-name {
-  transform: scale(1.05);
+.event-card:hover .event-name {
   transition: transform 0.3s ease;
 }
 </style>

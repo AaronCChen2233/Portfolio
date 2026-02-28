@@ -7,7 +7,8 @@ const messages = {
       about: '關於',
       experience: '經驗',
       education: '學歷',
-      projects: '作品與專案'
+      projects: '作品與專案',
+      events: '活動與比賽'
     },
     home: {
       greeting: '您好，我是',
@@ -212,7 +213,8 @@ const messages = {
       about: 'About',
       experience: 'Experience',
       education: 'Education',
-      projects: 'Projects'
+      projects: 'Projects',
+      events: 'Events'
     },
     home: {
       greeting: 'Hello, I am',

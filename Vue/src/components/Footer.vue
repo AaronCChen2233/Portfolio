@@ -59,7 +59,9 @@ export default {
       { name: 'about', href: '#about', section: 'about' },
       { name: 'experience', href: '#experience', section: 'experience' },
       { name: 'education', href: '#education', section: 'education' },
+      { name: 'events', href: '#events', section: 'events' },
       { name: 'projects', href: '#projects', section: 'projects' }
+      
     ]
 
     const scrollToSection = (sectionId) => {
