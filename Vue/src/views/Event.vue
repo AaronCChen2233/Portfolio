@@ -20,7 +20,17 @@
 
             <div class="card-body">
               <p>{{ item.description }}</p>
-              <p><strong>{{ item.result }}</strong></p>
+              <ul v-if="item.details && item.details.length" class="details-list">
+                <li v-for="(d, i) in item.details" :key="i" class="detail-item">
+                  {{ d }}
+                </li>
+              </ul>
+              <p v-if="item.url" class="event-link">
+                <a :href="item.url" target="_blank" class="event-btn">
+                  {{ $t('events.visitWebsite') }}
+                </a>
+              </p>
+              <p v-if="item.result"><strong>{{ item.result }}</strong></p>
             </div>
           </div>
         </div>
@@ -44,14 +54,33 @@ export default {
     const { fadeInUp, slideInLeft, slideInRight } = useAnimations()
 
     const competitions = computed(() => {
-      // when i18n returns key if missing, fallback manually as before
+      // build list from events items; manual order preserved
       return [
         {
-          title: t('events.items.0.title') || 'GitHub Copilot 應用競賽',
-          period: t('events.items.0.period') || '2025年7月',
-          description: t('events.items.0.description') ||
+          title: t('events.items.0.title') || 'DevOpsDays 2025',
+          period: t('events.items.0.period') || '2025年6月5日至6日',
+          description: t('events.items.0.description') || '參加臺灣規模最大的DevOps盛會',          url: t('events.items.0.url') || 'https://devopsdays.tw/2025/',          details: [
+            t('events.items.0.details.0') || 'Open Space：與DevOps實踐者、技術專家、開發者交流互動討論AI焦慮。',
+            t('events.items.0.details.1') || '工作坊：使用Azure DevOps CI/CD工作坊',
+            t('events.items.0.details.2') || '主題議程：參與專家與企業DevOps與AI應用分享',
+            t('events.items.0.details.3') || '專家面對面：與專家提問討論激盪想法'
+          ],
+          result: null
+        },
+        {
+          title: t('events.items.1.title') || 'IT Home 雲端大會',
+          period: t('events.items.1.period') || '2025年7月2日',
+          description: t('events.items.1.description') ||
+            '參與臺灣規模最大雲端盛會了解最新雲端趨勢，今年活動特別加上AI相關的應用、趨勢及討論，實際操作最新雲端工具與AI工具工作坊',
+          url: t('events.items.1.url') || 'https://cloudsummit.ithome.com.tw/2025/',
+          result: null
+        },
+        {
+          title: t('events.items.2.title') || 'GitHub Copilot 應用競賽',
+          period: t('events.items.2.period') || '2025年7月',
+          description: t('events.items.2.description') ||
             '參加永豐餘公司內部舉辦GitHub Copilot 競賽，運用GitHub Copilot功能包括自動完成、說明與註解、程式優化重構、測試資料、其他功能等共15項應用',
-          result: t('events.items.0.result') ||
+          result: t('events.items.2.result') ||
             '成果：獲得第二名並與全公司分享應用情境。'
         }
       ]
@@ -160,7 +189,29 @@ export default {
   margin-bottom: 20px;
 }
 
-/* 響應式設計 */
+.details-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.detail-item {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 8px;
+  line-height: 1.5;
+  color: #4a5568;
+}
+
+.detail-item::before {
+  content: '●';
+  position: absolute;
+  left: 0;
+  color: #667eea;
+  font-weight: bold;
+}
+
+/* responsive tweaks for medium screens */
 @media (max-width: 768px) {
   .event-grid {
     grid-template-columns: 1fr;
@@ -200,6 +251,23 @@ export default {
   .period {
     font-size: 0.95rem;
   }
+}
+
+/* 活動官網按鈕 */
+.event-btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background: linear-gradient(135deg, #667eea 0%, #1e3a8a 100%);
+  color: white;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.event-btn:hover {
+  background: linear-gradient(135deg, #1e3a8a 0%, #667eea 100%);
 }
 
 /* 動畫效果 */

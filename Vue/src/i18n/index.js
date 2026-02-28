@@ -112,7 +112,26 @@ const messages = {
     },
     events: {
       sectionTitle: '活動與比賽',
+      visitWebsite: '活動官網',
       items: [
+        {
+          title: 'DevOpsDays 2026',
+          period: '2025年6月5日至6日',
+          description: '參加臺灣規模最大的DevOps盛會',
+          url: 'https://devopsdays.tw/2025/',
+          details: [
+            'Open Space：與DevOps實踐者、技術專家、開發者交流互動討論AI焦慮。',
+            '工作坊：使用Azure DevOps CI/CD工作坊',
+            '主題議程：參與專家與企業DevOps與AI應用分享',
+            '專家面對面：與專家提問討論激盪想法'
+          ]
+        },
+        {
+          title: 'IT Home 雲端大會',
+          period: '2025年7月2日',
+          description: '參與臺灣規模最大雲端盛會了解最新雲端趨勢，今年活動特別加上AI相關的應用、趨勢及討論，實際操作最新雲端工具與AI工具工作坊',
+          url: 'https://cloudsummit.ithome.com.tw/2025/'
+        },
         {
           title: 'GitHub Copilot 應用競賽',
           period: '2025年7月',
@@ -320,7 +339,26 @@ const messages = {
     },
     events: {
       sectionTitle: 'Activities & Competitions',
+      visitWebsite: 'Official Website',
       items: [
+        {
+          title: 'DevOpsDays 2026',
+          period: 'June 5–6, 2025',
+          description: 'Attended Taiwan’s largest DevOps conference',
+          url: 'https://devopsdays.tw/2025/',
+          details: [
+            'Open Space: interact with DevOps practitioners, experts, and developers to discuss AI anxiety.',
+            'Workshop: Azure DevOps CI/CD workshop',
+            'Agenda sessions: expert and corporate talks on DevOps and AI applications',
+            'Expert Q&A: engage with experts for idea exchange'
+          ]
+        },
+        {
+          title: 'Taiwan Cloud Summit',
+          period: 'July 2, 2025',
+          description: 'Joined Taiwan’s largest cloud event to learn about the latest cloud trends; this year featured AI applications, trends and discussions, plus hands‑on workshops with the latest cloud and AI tools.',
+          url: 'https://cloudsummit.ithome.com.tw/2025/'
+        },
         {
           title: 'GitHub Copilot Application Competition',
           period: 'July 2025',
