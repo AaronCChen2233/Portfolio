@@ -55,7 +55,7 @@
                   :key="tech"
                   class="tech-tag"
                 >
-                  {{ tech }}
+                  {{ tech.replace(/[-_]/g, ' ') }}
                 </span>
               </div>
             </div>
@@ -168,6 +168,20 @@ export default {
           technologies: t('projects.items.9.technologies') || '.NET(Core) Microsoft SQL Server RDLC',
           github: (t('projects.items.9.github') !== 'projects.items.9.github') ? t('projects.items.9.github') : null,
           website: (t('projects.items.9.website') !== 'projects.items.9.website') ? t('projects.items.9.website') : null
+        },
+        {
+          name: t('projects.items.10.name') || 'ResChecker',
+          description: t('projects.items.10.description') || '一個輕量的 .NET 命令列工具與 MCP 伺服器，用於驗證指定的文字是否存在於某個資料夾中的 .resx 或 .resources 檔案內。若不存在MCP會回傳請AI幫忙翻譯',
+          technologies: t('projects.items.10.technologies') || 'GitHub-Copilot AI Agent MCP C#',
+          github: t('projects.items.10.github') || 'https://github.com/AaronCChen2233/--Tools--ResChecker',
+          website: (t('projects.items.10.website') !== 'projects.items.10.website') ? t('projects.items.10.website') : null
+        },
+        {
+          name: t('projects.items.11.name') || '開發流程標準化',
+          description: t('projects.items.11.description') || '扮演DevOps角色，運用公司現在的DevOps工具與Cloud native工具配合公司政策與開發人員習慣訂定幾個常見的開發流程標準化，包括需求訪談、開發、測試、部署等等，並推廣至全公司使用。',
+          technologies: t('projects.items.11.technologies') || 'Azure-DevOps Git Jenkins Docker IIS Notion SQL-Server RDLC',
+          github: (t('projects.items.11.github') !== 'projects.items.11.github') ? t('projects.items.11.github') : null,
+          website: (t('projects.items.11.website') !== 'projects.items.11.website') ? t('projects.items.11.website') : null
         }
         // todo: 加上Newegg Eip、Newegg Box
       ]
@@ -178,12 +192,14 @@ export default {
       1: 'Portfolio/project-images/multiplefilerename.png',
       2: 'Portfolio/project-images/sudoku.png',
       3: 'Portfolio/project-images/clipboardtranslator.png',
-      4: 'Portfolio/project-images/chpis.png', // 客服系統 - 可以添加圖片路徑
-      5: 'Portfolio/project-images/hcis.png', // 關務系統 - 可以添加圖片路徑
-      6: 'Portfolio/project-images/hcis.png', // 智能會議助理 - 可以添加圖片路徑
-      7: 'Portfolio/project-images/hcis.png', // 緊急重大事件通報 - 可以添加圖片路徑
-      8: 'Portfolio/project-images/hcis.png', // IFRS集團合併報表系統 - 可以添加圖片路徑
-      9: 'Portfolio/project-images/100th.png'  // 永豐餘百年慶 - 可以添加圖片路徑
+      4: 'Portfolio/project-images/chpis.png', 
+      5: 'Portfolio/project-images/hcis.png', 
+      6: 'Portfolio/project-images/hcis.png', 
+      7: 'Portfolio/project-images/hcis.png',
+      8: 'Portfolio/project-images/hcis.png', 
+      9: 'Portfolio/project-images/100th.png',  
+      10: 'Portfolio/project-images/ResChecker.png',  
+      11: null // internal project has no image yet
     }
 
     const getProjectImage = (index) => {

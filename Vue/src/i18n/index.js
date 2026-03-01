@@ -212,7 +212,20 @@ const messages = {
           description: '協助永豐餘百年慶活動IT系統使用者疑問與故障排除，處理特殊需求',
           technologies: '.NET(Core) Microsoft SQL Server RDLC',
           github: null,
-          website: 'https://100th.yfy.com/'
+          website: 'https://100th.yfy.com/'        },
+        {
+          name: 'ResChecker',
+          description: '一個輕量的 .NET 命令列工具與 MCP 伺服器，用於驗證指定的文字是否存在於某個資料夾中的 .resx 或 .resources 檔案內。若不存在MCP會回傳請AI幫忙翻譯',
+          technologies: 'GitHub-Copilot AI Agent MCP C#',
+          github: 'https://github.com/AaronCChen2233/--Tools--ResChecker',
+          website: null
+        },
+        {
+          name: '開發流程標準化',
+          description: '扮演DevOps角色，運用公司現在的DevOps工具與Cloud native工具配合公司政策與開發人員習慣訂定幾個常見的開發流程標準化，包括需求訪談、開發、測試、部署等等，並推廣至全公司使用。',
+          technologies: 'Azure-DevOps Git Jenkins Docker IIS Notion SQL-Server RDLC',
+          github: null,
+          website: null
         }
       ],
       viewGithub: '查看 GitHub',
@@ -440,7 +453,19 @@ const messages = {
           technologies: '.NET(Core) Microsoft SQL Server RDLC',
           github: null,
           website: 'https://100th.yfy.com/'
-        }
+        },
+                {
+          name: 'ResChecker',
+          description: 'A lightweight .NET command line tool and MCP server that verifies whether specified text exists in .resx or .resources files within a folder. If the text does not exist, the MCP returns a request like "please AI help translate".',
+          technologies: 'GitHub-Copilot AI Agent MCP C#',
+          github: 'https://github.com/AaronCChen2233/--Tools--ResChecker',
+          website: null        },
+                {
+          name: 'Development Process Standardization',
+          description: 'Acted as a DevOps role to establish several common standardized development processes—requirements interview, development, testing, deployment, etc.—using the company’s DevOps and cloud-native tools in line with company policies and developer habits, then promoted them across the entire company.',
+          technologies: 'Azure-DevOps Git Jenkins Docker IIS Notion SQL-Server RDLC',
+          github: null,
+          website: null        }
       ],
       viewGithub: 'View GitHub',
       viewWebsite: 'View Website'
