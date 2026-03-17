@@ -17,7 +17,7 @@ const messages = {
     },
     about: {
       title: '關於',
-      description: '擁有 8 年軟體開發經驗，涵蓋 DevOps、後端、前端 與 Windows 桌面應用開發。具備後端重構與需求分析能力，重視程式碼的可讀性與效能。熱愛學習與自我成長，不斷精進技術。',
+      description: '有 8 年的軟體開發經驗包括Windows桌面程式、網頁後端、網頁前端、ASP.NET、DevOps。有後端重構的經驗，知道怎麼維持Code乾淨易讀且有最好的效能，熟演算法、資料結構。希望軟體能解決真實世界中的問題🚀，喜愛學習與提升自我的技能，樂於分享所學的新知。',
       traits: {
         title: '個人特質',
         content: '創意創新、洞察力強、團隊合作佳、個性善良勇敢、平易近人'
@@ -257,7 +257,7 @@ const messages = {
     },
     about: {
       title: 'About',
-      description: '8 years of software development experience, covering DevOps, backend, frontend and Windows desktop application development. Capable of backend refactoring and requirement analysis, focusing on code readability and performance. Love learning and self-improvement, continuously improving technical skills.',
+      description: '8 Years in Dev & DevOps | ASP.NET Specialist | Expert in Backend Refactoring & Performance. 🚀 Strong foundation in Algorithms & Data Structures. My mission is to build software that solves real-world problems. Passionate learner and knowledge sharer.',
       traits: {
         title: 'Personal Traits',
         content: 'Creative and innovative, strong insight, good teamwork, kind and brave personality, approachable'

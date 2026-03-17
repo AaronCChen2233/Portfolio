@@ -30,8 +30,9 @@
             <a href="https://github.com/AaronCChen2233" target="_blank" class="contact-link" title="GitHub" @click="closeMenu">
               <img src="/github-logo.svg" alt="GitHub" class="icon-svg" />
             </a>
-            <a href="https://factual-museum-eac.notion.site/25e473e8df57815dbf2ee3aefa9e069b" target="_blank" class="contact-link" :title="$t('contact.notion')" @click="closeMenu">
+            <a href="https://factual-museum-eac.notion.site/25e473e8df57815dbf2ee3aefa9e069b" target="_blank" class="contact-link contact-link--label" :title="$t('contact.notion')" @click="closeMenu">
               <img src="/notion-logo.svg" alt="Notion" class="icon-svg" />
+              <span class="contact-label">{{ $t('contact.notion') }}</span>
             </a>
           </div>
         </div>
@@ -261,6 +262,19 @@ export default {
   box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
 }
 
+.contact-link--label {
+  width: auto;
+  padding: 0 12px;
+  border-radius: 999px;
+}
+
+.contact-label {
+  margin-left: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
 .icon-svg {
   width: 20px;
   height: 20px;
@@ -402,6 +416,13 @@ export default {
     height: 50px;
     font-size: 1.4rem;
   }
+
+  .contact-link--label {
+    width: auto;
+    height: auto;
+    padding: 12px 16px;
+    border-radius: 999px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -459,6 +480,13 @@ export default {
     width: 45px;
     height: 45px;
     font-size: 1.2rem;
+  }
+
+  .contact-link--label {
+    width: auto;
+    height: auto;
+    padding: 10px 14px;
+    border-radius: 999px;
   }
 
   .nav-toggle {

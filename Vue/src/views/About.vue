@@ -177,10 +177,10 @@ export default {
         key: 'desktop',
         technologies: ['WPF', 'Swing', 'Tkinter', 'C#', 'Python']
       },
-      {
-        key: 'mobile',
-        technologies: ['iOS', 'Android', 'Swift', 'Java', 'Kotlin']
-      },
+      //{
+      //  key: 'mobile',
+      //  technologies: ['iOS', 'Android', 'Swift', 'Java', 'Kotlin']
+      //},
       {
         key: 'database',
         technologies: ['Microsoft SQL Server', 'MongoDB', 'Firebase']

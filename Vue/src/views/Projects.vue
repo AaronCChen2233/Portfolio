@@ -120,13 +120,13 @@ export default {
           github: t('projects.items.2.github') || 'https://github.com/AaronCChen2233/--Portfolio--SUDOKU',
           website: (t('projects.items.2.website') !== 'projects.items.2.website') ? t('projects.items.2.website') : null
         },
-        {
-          name: t('projects.items.3.name') || 'Clipboard Translator',
-          description: t('projects.items.3.description') || '一個翻譯的 Windows 桌面軟體，當你複製一個單字時會在角落跳出一個小視窗，上面會顯示關於這個單字的相關資訊與翻譯。',
-          technologies: t('projects.items.3.technologies') || 'Swing Java',
-          github: t('projects.items.3.github') || 'https://github.com/AaronCChen2233/--Portfolio--ClipboardTranslator',
-          website: (t('projects.items.3.website') !== 'projects.items.3.website') ? t('projects.items.3.website') : null
-        },
+        // {
+        //   name: t('projects.items.3.name') || 'Clipboard Translator',
+        //   description: t('projects.items.3.description') || '一個翻譯的 Windows 桌面軟體，當你複製一個單字時會在角落跳出一個小視窗，上面會顯示關於這個單字的相關資訊與翻譯。',
+        //   technologies: t('projects.items.3.technologies') || 'Swing Java',
+        //   github: t('projects.items.3.github') || 'https://github.com/AaronCChen2233/--Portfolio--ClipboardTranslator',
+        //   website: (t('projects.items.3.website') !== 'projects.items.3.website') ? t('projects.items.3.website') : null
+        // },
         {
           name: t('projects.items.4.name') || '客服系統',
           description: t('projects.items.4.description') || '管理客服專案，管理處理事項相關文件等，連接Team+處理客服專案',
@@ -134,13 +134,13 @@ export default {
           github: (t('projects.items.4.github') !== 'projects.items.4.github') ? t('projects.items.4.github') : null,
           website: (t('projects.items.4.website') !== 'projects.items.4.website') ? t('projects.items.4.website') : null
         },
-        {
-          name: t('projects.items.5.name') || '關務系統',
-          description: t('projects.items.5.description') || '處理進口相關業務與統計報表',
-          technologies: t('projects.items.5.technologies') || 'ASP.NET MVC JavaScript Microsoft SQL Server RDLC',
-          github: (t('projects.items.5.github') !== 'projects.items.5.github') ? t('projects.items.5.github') : null,
-          website: (t('projects.items.5.website') !== 'projects.items.5.website') ? t('projects.items.5.website') : null
-        },
+        // {
+        //   name: t('projects.items.5.name') || '關務系統',
+        //   description: t('projects.items.5.description') || '處理進口相關業務與統計報表',
+        //   technologies: t('projects.items.5.technologies') || 'ASP.NET MVC JavaScript Microsoft SQL Server RDLC',
+        //   github: (t('projects.items.5.github') !== 'projects.items.5.github') ? t('projects.items.5.github') : null,
+        //   website: (t('projects.items.5.website') !== 'projects.items.5.website') ? t('projects.items.5.website') : null
+        // },
         {
           name: t('projects.items.6.name') || '智能會議助理',
           description: t('projects.items.6.description') || '使用雅婷語音轉文字服務與OpenAI，將會議內容逐字稿轉成摘要',
@@ -191,15 +191,15 @@ export default {
       0: 'Portfolio/project-images/simplemusicnotesreader.png',
       1: 'Portfolio/project-images/multiplefilerename.png',
       2: 'Portfolio/project-images/sudoku.png',
-      3: 'Portfolio/project-images/clipboardtranslator.png',
-      4: 'Portfolio/project-images/chpis.png', 
-      5: 'Portfolio/project-images/hcis.png', 
+      // 3: 'Portfolio/project-images/clipboardtranslator.png',
+      3: 'Portfolio/project-images/chpis.png', 
+      // 5: 'Portfolio/project-images/hcis.png', 
+      4: 'Portfolio/project-images/hcis.png', 
+      5: 'Portfolio/project-images/hcis.png',
       6: 'Portfolio/project-images/hcis.png', 
-      7: 'Portfolio/project-images/hcis.png',
-      8: 'Portfolio/project-images/hcis.png', 
-      9: 'Portfolio/project-images/100th.png',  
-      10: 'Portfolio/project-images/ResChecker.png',  
-      11: null // internal project has no image yet
+      7: 'Portfolio/project-images/100th.png',  
+      8: 'Portfolio/project-images/ResChecker.png',  
+      9: null // internal project has no image yet
     }
 
     const getProjectImage = (index) => {

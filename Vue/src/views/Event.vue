@@ -67,14 +67,14 @@ export default {
           ],
           result: null
         },
-        {
-          title: t('events.items.1.title') || 'IT Home 雲端大會',
-          period: t('events.items.1.period') || '2025年7月2日',
-          description: t('events.items.1.description') ||
-            '參與臺灣規模最大雲端盛會了解最新雲端趨勢，今年活動特別加上AI相關的應用、趨勢及討論，實際操作最新雲端工具與AI工具工作坊',
-          url: t('events.items.1.url') || 'https://cloudsummit.ithome.com.tw/2025/',
-          result: null
-        },
+        // {
+        //   title: t('events.items.1.title') || 'IT Home 雲端大會',
+        //   period: t('events.items.1.period') || '2025年7月2日',
+        //   description: t('events.items.1.description') ||
+        //     '參與臺灣規模最大雲端盛會了解最新雲端趨勢，今年活動特別加上AI相關的應用、趨勢及討論，實際操作最新雲端工具與AI工具工作坊',
+        //   url: t('events.items.1.url') || 'https://cloudsummit.ithome.com.tw/2025/',
+        //   result: null
+        // },
         {
           title: t('events.items.2.title') || 'GitHub Copilot 應用競賽',
           period: t('events.items.2.period') || '2025年7月',
