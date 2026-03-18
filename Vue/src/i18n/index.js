@@ -165,13 +165,13 @@ const messages = {
           github: 'https://github.com/AaronCChen2233/--Portfolio--SUDOKU',
           website: null
         },
-        {
-          name: 'Clipboard Translator',
-          description: '一個翻譯的 Windows 桌面軟體，當你複製一個單字時會在角落跳出一個小視窗，上面會顯示關於這個單字的相關資訊與翻譯。',
-          technologies: 'Swing Java',
-          github: 'https://github.com/AaronCChen2233/--Portfolio--ClipboardTranslator',
-          website: null
-        },
+        // {
+        //   name: 'Clipboard Translator',
+        //   description: '一個翻譯的 Windows 桌面軟體，當你複製一個單字時會在角落跳出一個小視窗，上面會顯示關於這個單字的相關資訊與翻譯。',
+        //   technologies: 'Swing Java',
+        //   github: 'https://github.com/AaronCChen2233/--Portfolio--ClipboardTranslator',
+        //   website: null
+        // },
         {
           name: '客服系統',
           description: '管理客服專案，管理處理事項相關文件等，連接Team+處理客服專案',
@@ -179,13 +179,13 @@ const messages = {
           github: null,
           website: null
         },
-        {
-          name: '關務系統',
-          description: '處理進口相關業務與統計報表',
-          technologies: 'ASP.NET MVC JavaScript Microsoft SQL Server RDLC',
-          github: null,
-          website: null
-        },
+        // {
+        //   name: '關務系統',
+        //   description: '處理進口相關業務與統計報表',
+        //   technologies: 'ASP.NET MVC JavaScript Microsoft SQL Server RDLC',
+        //   github: null,
+        //   website: null
+        // },
         {
           name: '智能會議助理',
           description: '使用雅婷語音轉文字服務與OpenAI，將會議內容逐字稿轉成摘要',
@@ -405,13 +405,13 @@ const messages = {
           github: 'https://github.com/AaronCChen2233/--Portfolio--SUDOKU',
           website: null
         },
-        {
-          name: 'Clipboard Translator',
-          description: 'A translation Windows desktop software, when you copy a word, a small window will pop up in the corner showing relevant information and translation about the word.',
-          technologies: 'Swing Java',
-          github: 'https://github.com/AaronCChen2233/--Portfolio--ClipboardTranslator',
-          website: null
-        },
+        // {
+        //   name: 'Clipboard Translator',
+        //   description: 'A translation Windows desktop software, when you copy a word, a small window will pop up in the corner showing relevant information and translation about the word.',
+        //   technologies: 'Swing Java',
+        //   github: 'https://github.com/AaronCChen2233/--Portfolio--ClipboardTranslator',
+        //   website: null
+        // },
         {
           name: 'Customer Service System',
           description: 'Manage customer service projects, manage processing-related documents, connect with Team+ to handle customer service projects',
@@ -419,13 +419,13 @@ const messages = {
           github: null,
           website: null
         },
-        {
-          name: 'Customs System',
-          description: 'Handle import-related business and statistical reports',
-          technologies: 'ASP.NET MVC JavaScript Microsoft SQL Server RDLC',
-          github: null,
-          website: null
-        },
+        // {
+        //   name: 'Customs System',
+        //   description: 'Handle import-related business and statistical reports',
+        //   technologies: 'ASP.NET MVC JavaScript Microsoft SQL Server RDLC',
+        //   github: null,
+        //   website: null
+        // },
         {
           name: 'AI Meeting Assistant',
           description: 'Use Yating speech-to-text service and OpenAI to convert meeting transcripts into summaries',

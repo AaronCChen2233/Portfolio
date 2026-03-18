@@ -63,7 +63,7 @@
                   <div class="stat-label">{{ $t('about.stats.certificates') }}</div>
                 </div>
                 <div class="stat-item">
-                  <div class="stat-number">7</div>
+                  <div class="stat-number">6</div>
                   <div class="stat-label">{{ $t('about.stats.skills') }}</div>
                 </div>
                 <div class="stat-item">
@@ -171,7 +171,7 @@ export default {
       },
       {
         key: 'webDev',
-        technologies: ['.NET(Core)', 'ASP.NET MVC', 'React', 'Vue', 'JavaScript']
+        technologies: ['.NET(Core)', 'ASP.NET MVC', 'Vue', 'React', 'JavaScript', 'TypeScript']
       },
       {
         key: 'desktop',
@@ -187,7 +187,7 @@ export default {
       },
       {
         key: 'tools',
-        technologies: ['Visual Studio', 'VS Code', 'Xcode', 'Android Studio', 'PyCharm', 'IntelliJ']
+        technologies: ['Visual Studio', 'VS Code', 'Postman','PyCharm', 'IntelliJ']
       },
       {
         key: 'versionControl',
