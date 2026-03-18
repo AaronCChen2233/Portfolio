@@ -76,11 +76,11 @@ export default {
         //   result: null
         // },
         {
-          title: t('events.items.2.title') || 'GitHub Copilot 應用競賽',
-          period: t('events.items.2.period') || '2025年7月',
-          description: t('events.items.2.description') ||
+          title: t('events.items.1.title') || 'GitHub Copilot 應用競賽',
+          period: t('events.items.1.period') || '2025年7月',
+          description: t('events.items.1.description') ||
             '參加永豐餘公司內部舉辦GitHub Copilot 競賽，運用GitHub Copilot功能包括自動完成、說明與註解、程式優化重構、測試資料、其他功能等共15項應用',
-          result: t('events.items.2.result') ||
+          result: t('events.items.1.result') ||
             '成果：獲得第二名並與全公司分享應用情境。'
         }
       ]

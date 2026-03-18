@@ -70,6 +70,10 @@
                   <div class="stat-number">{{ projectsCount }}</div>
                   <div class="stat-label">{{ $t('about.stats.projects') }}</div>
                 </div>
+                <div class="stat-item">
+                  <div class="stat-number">{{ eventsCount }}</div>
+                  <div class="stat-label">{{ $t('about.stats.events') }}</div>
+                </div>
               </div>
             </div>
 
@@ -164,6 +168,31 @@ export default {
       }
     })
 
+    // 計算活動與比賽數量（與 Event.vue 同步）
+    const eventsCount = computed(() => {
+      try {
+        // 方法1：使用 t() 函數
+        const eventsItems1 = t('events.items')
+
+        // 方法2：使用 tm() 函數獲取原始數據
+        const eventsData = tm('events')
+        const eventsItems2 = eventsData.items
+
+        // 優先使用 tm() 方法的結果
+        const items = Array.isArray(eventsItems2)
+          ? eventsItems2
+          : Array.isArray(eventsItems1)
+          ? eventsItems1
+          : []
+
+        // 直接回傳長度（index.js 內已註解掉沒用到的項目）
+        return items.length
+      } catch (error) {
+        console.error('Error getting events count:', error)
+        return 2
+      }
+    })
+
     const skillCategories = [
       {
         key: 'devops',
@@ -212,7 +241,8 @@ export default {
       skillCategories,
       yearsOfExperience,
       dynamicDescription,
-      projectsCount
+      projectsCount,
+      eventsCount
     }
   }
 }

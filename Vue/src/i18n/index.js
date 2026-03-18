@@ -27,7 +27,8 @@ const messages = {
         degrees: '學位',
         certificates: '證書',
         skills: '技術專長',
-        projects: '作品與專案'
+        projects: '作品與專案',
+        events: '活動與比賽'
       },
       skills: {
         title: '技能',
@@ -126,12 +127,14 @@ const messages = {
             '專家面對面：與專家提問討論激盪想法'
           ]
         },
+        /*
         {
           title: 'IT Home 雲端大會',
           period: '2025年7月2日',
           description: '參與臺灣規模最大雲端盛會了解最新雲端趨勢，今年活動特別加上AI相關的應用、趨勢及討論，實際操作最新雲端工具與AI工具工作坊',
           url: 'https://cloudsummit.ithome.com.tw/2025/'
         },
+        */
         {
           title: 'GitHub Copilot 應用競賽',
           period: '2025年7月',
@@ -267,7 +270,8 @@ const messages = {
         degrees: 'Degree',
         certificates: 'Certificates',
         skills: 'Skills',
-        projects: 'Projects'
+        projects: 'Projects',
+        events: 'Activities & Competitions'
       },
       skills: {
         title: 'Skills',
@@ -366,12 +370,14 @@ const messages = {
             'Expert Q&A: engage with experts for idea exchange'
           ]
         },
+        /*
         {
           title: 'Taiwan Cloud Summit',
           period: 'July 2, 2025',
           description: 'Joined Taiwan’s largest cloud event to learn about the latest cloud trends; this year featured AI applications, trends and discussions, plus hands‑on workshops with the latest cloud and AI tools.',
           url: 'https://cloudsummit.ithome.com.tw/2025/'
         },
+        */
         {
           title: 'GitHub Copilot Application Competition',
           period: 'July 2025',

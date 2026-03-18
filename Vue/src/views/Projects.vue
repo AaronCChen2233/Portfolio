@@ -128,11 +128,11 @@ export default {
         //   website: (t('projects.items.3.website') !== 'projects.items.3.website') ? t('projects.items.3.website') : null
         // },
         {
-          name: t('projects.items.4.name') || '客服系統',
-          description: t('projects.items.4.description') || '管理客服專案，管理處理事項相關文件等，連接Team+處理客服專案',
-          technologies: t('projects.items.4.technologies') || 'ASP.NET MVC JavaScript TeamPlus API Microsoft SQL Server',
-          github: (t('projects.items.4.github') !== 'projects.items.4.github') ? t('projects.items.4.github') : null,
-          website: (t('projects.items.4.website') !== 'projects.items.4.website') ? t('projects.items.4.website') : null
+          name: t('projects.items.3.name') || '客服系統',
+          description: t('projects.items.3.description') || '管理客服專案，管理處理事項相關文件等，連接Team+處理客服專案',
+          technologies: t('projects.items.3.technologies') || 'ASP.NET MVC JavaScript TeamPlus API Microsoft SQL Server',
+          github: (t('projects.items.3.github') !== 'projects.items.3.github') ? t('projects.items.3.github') : null,
+          website: (t('projects.items.3.website') !== 'projects.items.3.website') ? t('projects.items.3.website') : null
         },
         // {
         //   name: t('projects.items.5.name') || '關務系統',
@@ -142,46 +142,46 @@ export default {
         //   website: (t('projects.items.5.website') !== 'projects.items.5.website') ? t('projects.items.5.website') : null
         // },
         {
-          name: t('projects.items.6.name') || '智能會議助理',
-          description: t('projects.items.6.description') || '使用雅婷語音轉文字服務與OpenAI，將會議內容逐字稿轉成摘要',
-          technologies: t('projects.items.6.technologies') || 'OpenAI API Yating API Azure Vue .NET(Core)',
+          name: t('projects.items.4.name') || '智能會議助理',
+          description: t('projects.items.4.description') || '使用雅婷語音轉文字服務與OpenAI，將會議內容逐字稿轉成摘要',
+          technologies: t('projects.items.4.technologies') || 'OpenAI API Yating API Azure Vue .NET(Core)',
+          github: (t('projects.items.4.github') !== 'projects.items.4.github') ? t('projects.items.4.github') : null,
+          website: (t('projects.items.4.website') !== 'projects.items.4.website') ? t('projects.items.4.website') : null
+        },
+        {
+          name: t('projects.items.5.name') || '緊急重大事件通報',
+          description: t('projects.items.5.description') || '供廠內人員通報緊急重大事件，並傳簡訊、Email通報給相關人士',
+          technologies: t('projects.items.5.technologies') || 'ASP.NET MVC Microsoft SQL Server SMTP SMS API',
+          github: (t('projects.items.5.github') !== 'projects.items.5.github') ? t('projects.items.5.github') : null,
+          website: (t('projects.items.5.website') !== 'projects.items.5.website') ? t('projects.items.5.website') : null
+        },
+        {
+          name: t('projects.items.6.name') || 'IFRS集團合併報表系統',
+          description: t('projects.items.6.description') || '將集團內子公司財務報表依International Financial Reporting Standards (國際財務報導準則)合併',
+          technologies: t('projects.items.6.technologies') || 'ASP.NET MVC Microsoft SQL Server RDLC',
           github: (t('projects.items.6.github') !== 'projects.items.6.github') ? t('projects.items.6.github') : null,
           website: (t('projects.items.6.website') !== 'projects.items.6.website') ? t('projects.items.6.website') : null
         },
         {
-          name: t('projects.items.7.name') || '緊急重大事件通報',
-          description: t('projects.items.7.description') || '供廠內人員通報緊急重大事件，並傳簡訊、Email通報給相關人士',
-          technologies: t('projects.items.7.technologies') || 'ASP.NET MVC Microsoft SQL Server SMTP SMS API',
+          name: t('projects.items.7.name') || '永豐餘百年慶',
+          description: t('projects.items.7.description') || '協助永豐餘百年慶活動IT系統使用者疑問與故障排除，處理特殊需求',
+          technologies: t('projects.items.7.technologies') || '.NET(Core) Microsoft SQL Server RDLC',
           github: (t('projects.items.7.github') !== 'projects.items.7.github') ? t('projects.items.7.github') : null,
           website: (t('projects.items.7.website') !== 'projects.items.7.website') ? t('projects.items.7.website') : null
         },
         {
-          name: t('projects.items.8.name') || 'IFRS集團合併報表系統',
-          description: t('projects.items.8.description') || '將集團內子公司財務報表依International Financial Reporting Standards (國際財務報導準則)合併',
-          technologies: t('projects.items.8.technologies') || 'ASP.NET MVC Microsoft SQL Server RDLC',
-          github: (t('projects.items.8.github') !== 'projects.items.8.github') ? t('projects.items.8.github') : null,
+          name: t('projects.items.8.name') || 'ResChecker',
+          description: t('projects.items.8.description') || '一個輕量的 .NET 命令列工具與 MCP 伺服器，用於驗證指定的文字是否存在於某個資料夾中的 .resx 或 .resources 檔案內。若不存在MCP會回傳請AI幫忙翻譯',
+          technologies: t('projects.items.8.technologies') || 'GitHub-Copilot AI Agent MCP C#',
+          github: t('projects.items.8.github') || 'https://github.com/AaronCChen2233/--Tools--ResChecker',
           website: (t('projects.items.8.website') !== 'projects.items.8.website') ? t('projects.items.8.website') : null
         },
         {
-          name: t('projects.items.9.name') || '永豐餘百年慶',
-          description: t('projects.items.9.description') || '協助永豐餘百年慶活動IT系統使用者疑問與故障排除，處理特殊需求',
-          technologies: t('projects.items.9.technologies') || '.NET(Core) Microsoft SQL Server RDLC',
+          name: t('projects.items.9.name') || '開發流程標準化',
+          description: t('projects.items.9.description') || '扮演DevOps角色，運用公司現在的DevOps工具與Cloud native工具配合公司政策與開發人員習慣訂定幾個常見的開發流程標準化，包括需求訪談、開發、測試、部署等等，並推廣至全公司使用。',
+          technologies: t('projects.items.9.technologies') || 'Azure-DevOps Git Jenkins Docker IIS Notion SQL-Server RDLC',
           github: (t('projects.items.9.github') !== 'projects.items.9.github') ? t('projects.items.9.github') : null,
           website: (t('projects.items.9.website') !== 'projects.items.9.website') ? t('projects.items.9.website') : null
-        },
-        {
-          name: t('projects.items.10.name') || 'ResChecker',
-          description: t('projects.items.10.description') || '一個輕量的 .NET 命令列工具與 MCP 伺服器，用於驗證指定的文字是否存在於某個資料夾中的 .resx 或 .resources 檔案內。若不存在MCP會回傳請AI幫忙翻譯',
-          technologies: t('projects.items.10.technologies') || 'GitHub-Copilot AI Agent MCP C#',
-          github: t('projects.items.10.github') || 'https://github.com/AaronCChen2233/--Tools--ResChecker',
-          website: (t('projects.items.10.website') !== 'projects.items.10.website') ? t('projects.items.10.website') : null
-        },
-        {
-          name: t('projects.items.11.name') || '開發流程標準化',
-          description: t('projects.items.11.description') || '扮演DevOps角色，運用公司現在的DevOps工具與Cloud native工具配合公司政策與開發人員習慣訂定幾個常見的開發流程標準化，包括需求訪談、開發、測試、部署等等，並推廣至全公司使用。',
-          technologies: t('projects.items.11.technologies') || 'Azure-DevOps Git Jenkins Docker IIS Notion SQL-Server RDLC',
-          github: (t('projects.items.11.github') !== 'projects.items.11.github') ? t('projects.items.11.github') : null,
-          website: (t('projects.items.11.website') !== 'projects.items.11.website') ? t('projects.items.11.website') : null
         }
         // todo: 加上Newegg Eip、Newegg Box
       ]
