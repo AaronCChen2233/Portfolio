@@ -106,20 +106,20 @@ export default {
           github: t('projects.items.0.github') || 'https://github.com/AaronCChen2233/--Portfolio--simple_music_notes_reader',
           website: (t('projects.items.0.website') !== 'projects.items.0.website') ? t('projects.items.0.website') : null
         },
-        {
-          name: t('projects.items.1.name') || 'Multiple File Rename',
-          description: t('projects.items.1.description') || '一個你可以批次幫檔案改名的 Windows 桌面軟體，一共有三種改名方法，取代，刪除與新增字元。',
-          technologies: t('projects.items.1.technologies') || 'WPF .NET C# MVVM',
-          github: t('projects.items.1.github') || 'https://github.com/AaronCChen2233/--Portfolio--Multiple_File_Rename',
-          website: (t('projects.items.1.website') !== 'projects.items.1.website') ? t('projects.items.1.website') : null
-        },
-        {
-          name: t('projects.items.2.name') || 'SUDOKU',
-          description: t('projects.items.2.description') || '一個能隨機產生數獨問題的 Windows 桌面軟體，有使用者介面可使使用者玩數獨，可選擇難度，當你完成時計時器會自動暫停。',
-          technologies: t('projects.items.2.technologies') || 'Swing Java',
-          github: t('projects.items.2.github') || 'https://github.com/AaronCChen2233/--Portfolio--SUDOKU',
-          website: (t('projects.items.2.website') !== 'projects.items.2.website') ? t('projects.items.2.website') : null
-        },
+        //{
+        //  name: t('projects.items.1.name') || 'Multiple File Rename',
+        //  description: t('projects.items.1.description') || '一個你可以批次幫檔案改名的 Windows 桌面軟體，一共有三種改名方法，取代，刪除與新增字元。',
+        //  technologies: t('projects.items.1.technologies') || 'WPF .NET C# MVVM',
+        //  github: t('projects.items.1.github') || 'https://github.com/AaronCChen2233/--Portfolio--Multiple_File_Rename',
+        //  website: (t('projects.items.1.website') !== 'projects.items.1.website') ? t('projects.items.1.website') : null
+        //},
+        //{
+        //  name: t('projects.items.2.name') || 'SUDOKU',
+        //  description: t('projects.items.2.description') || '一個能隨機產生數獨問題的 Windows 桌面軟體，有使用者介面可使使用者玩數獨，可選擇難度，當你完成時計時器會自動暫停。',
+        //  technologies: t('projects.items.2.technologies') || 'Swing Java',
+        //  github: t('projects.items.2.github') || 'https://github.com/AaronCChen2233/--Portfolio--SUDOKU',
+        //  website: (t('projects.items.2.website') !== 'projects.items.2.website') ? t('projects.items.2.website') : null
+        //},
         // {
         //   name: t('projects.items.3.name') || 'Clipboard Translator',
         //   description: t('projects.items.3.description') || '一個翻譯的 Windows 桌面軟體，當你複製一個單字時會在角落跳出一個小視窗，上面會顯示關於這個單字的相關資訊與翻譯。',
@@ -127,13 +127,13 @@ export default {
         //   github: t('projects.items.3.github') || 'https://github.com/AaronCChen2233/--Portfolio--ClipboardTranslator',
         //   website: (t('projects.items.3.website') !== 'projects.items.3.website') ? t('projects.items.3.website') : null
         // },
-        {
-          name: t('projects.items.3.name') || '客服系統',
-          description: t('projects.items.3.description') || '管理客服專案，管理處理事項相關文件等，連接Team+處理客服專案',
-          technologies: t('projects.items.3.technologies') || 'ASP.NET MVC JavaScript TeamPlus API Microsoft SQL Server',
-          github: (t('projects.items.3.github') !== 'projects.items.3.github') ? t('projects.items.3.github') : null,
-          website: (t('projects.items.3.website') !== 'projects.items.3.website') ? t('projects.items.3.website') : null
-        },
+        //{
+        //  name: t('projects.items.3.name') || '客服系統',
+        //  description: t('projects.items.3.description') || '管理客服專案，管理處理事項相關文件等，連接Team+處理客服專案',
+        //  technologies: t('projects.items.3.technologies') || 'ASP.NET MVC JavaScript TeamPlus API Microsoft SQL Server',
+        //  github: (t('projects.items.3.github') !== 'projects.items.3.github') ? t('projects.items.3.github') : null,
+        //  website: (t('projects.items.3.website') !== 'projects.items.3.website') ? t('projects.items.3.website') : null
+        //},
         // {
         //   name: t('projects.items.5.name') || '關務系統',
         //   description: t('projects.items.5.description') || '處理進口相關業務與統計報表',
@@ -141,47 +141,47 @@ export default {
         //   github: (t('projects.items.5.github') !== 'projects.items.5.github') ? t('projects.items.5.github') : null,
         //   website: (t('projects.items.5.website') !== 'projects.items.5.website') ? t('projects.items.5.website') : null
         // },
+        //{
+        //  name: t('projects.items.4.name') || '智能會議助理',
+        //  description: t('projects.items.4.description') || '使用雅婷語音轉文字服務與OpenAI，將會議內容逐字稿轉成摘要',
+        //  technologies: t('projects.items.4.technologies') || 'OpenAI API Yating API Azure Vue .NET(Core)',
+        //  github: (t('projects.items.4.github') !== 'projects.items.4.github') ? t('projects.items.4.github') : null,
+        //  website: (t('projects.items.4.website') !== 'projects.items.4.website') ? t('projects.items.4.website') : null
+        //},
+        //{
+        //  name: t('projects.items.5.name') || '緊急重大事件通報',
+        //  description: t('projects.items.5.description') || '供廠內人員通報緊急重大事件，並傳簡訊、Email通報給相關人士',
+        //  technologies: t('projects.items.5.technologies') || 'ASP.NET MVC Microsoft SQL Server SMTP SMS API',
+        //  github: (t('projects.items.5.github') !== 'projects.items.5.github') ? t('projects.items.5.github') : null,
+        //  website: (t('projects.items.5.website') !== 'projects.items.5.website') ? t('projects.items.5.website') : null
+        //},
+        //{
+        //  name: t('projects.items.6.name') || 'IFRS集團合併報表系統',
+        //  description: t('projects.items.6.description') || '將集團內子公司財務報表依International Financial Reporting Standards (國際財務報導準則)合併',
+        //  technologies: t('projects.items.6.technologies') || 'ASP.NET MVC Microsoft SQL Server RDLC',
+        //  github: (t('projects.items.6.github') !== 'projects.items.6.github') ? t('projects.items.6.github') : null,
+        //  website: (t('projects.items.6.website') !== 'projects.items.6.website') ? t('projects.items.6.website') : null
+        //},
+        //{
+        //  name: t('projects.items.7.name') || '永豐餘百年慶',
+        //  description: t('projects.items.7.description') || '協助永豐餘百年慶活動IT系統使用者疑問與故障排除，處理特殊需求',
+        //  technologies: t('projects.items.7.technologies') || '.NET(Core) Microsoft SQL Server RDLC',
+        //  github: (t('projects.items.7.github') !== 'projects.items.7.github') ? t('projects.items.7.github') : null,
+        //  website: (t('projects.items.7.website') !== 'projects.items.7.website') ? t('projects.items.7.website') : null
+        //},
         {
-          name: t('projects.items.4.name') || '智能會議助理',
-          description: t('projects.items.4.description') || '使用雅婷語音轉文字服務與OpenAI，將會議內容逐字稿轉成摘要',
-          technologies: t('projects.items.4.technologies') || 'OpenAI API Yating API Azure Vue .NET(Core)',
-          github: (t('projects.items.4.github') !== 'projects.items.4.github') ? t('projects.items.4.github') : null,
-          website: (t('projects.items.4.website') !== 'projects.items.4.website') ? t('projects.items.4.website') : null
+          name: t('projects.items.1.name') || 'ResChecker',
+          description: t('projects.items.1.description') || '一個輕量的 .NET 命令列工具與 MCP 伺服器，用於驗證指定的文字是否存在於某個資料夾中的 .resx 或 .resources 檔案內。若不存在MCP會回傳請AI幫忙翻譯',
+          technologies: t('projects.items.1.technologies') || 'GitHub-Copilot AI Agent MCP C#',
+          github: t('projects.items.1.github') || 'https://github.com/AaronCChen2233/--Tools--ResChecker',
+          website: (t('projects.items.1.website') !== 'projects.items.1.website') ? t('projects.items.1.website') : null
         },
         {
-          name: t('projects.items.5.name') || '緊急重大事件通報',
-          description: t('projects.items.5.description') || '供廠內人員通報緊急重大事件，並傳簡訊、Email通報給相關人士',
-          technologies: t('projects.items.5.technologies') || 'ASP.NET MVC Microsoft SQL Server SMTP SMS API',
-          github: (t('projects.items.5.github') !== 'projects.items.5.github') ? t('projects.items.5.github') : null,
-          website: (t('projects.items.5.website') !== 'projects.items.5.website') ? t('projects.items.5.website') : null
-        },
-        {
-          name: t('projects.items.6.name') || 'IFRS集團合併報表系統',
-          description: t('projects.items.6.description') || '將集團內子公司財務報表依International Financial Reporting Standards (國際財務報導準則)合併',
-          technologies: t('projects.items.6.technologies') || 'ASP.NET MVC Microsoft SQL Server RDLC',
-          github: (t('projects.items.6.github') !== 'projects.items.6.github') ? t('projects.items.6.github') : null,
-          website: (t('projects.items.6.website') !== 'projects.items.6.website') ? t('projects.items.6.website') : null
-        },
-        {
-          name: t('projects.items.7.name') || '永豐餘百年慶',
-          description: t('projects.items.7.description') || '協助永豐餘百年慶活動IT系統使用者疑問與故障排除，處理特殊需求',
-          technologies: t('projects.items.7.technologies') || '.NET(Core) Microsoft SQL Server RDLC',
-          github: (t('projects.items.7.github') !== 'projects.items.7.github') ? t('projects.items.7.github') : null,
-          website: (t('projects.items.7.website') !== 'projects.items.7.website') ? t('projects.items.7.website') : null
-        },
-        {
-          name: t('projects.items.8.name') || 'ResChecker',
-          description: t('projects.items.8.description') || '一個輕量的 .NET 命令列工具與 MCP 伺服器，用於驗證指定的文字是否存在於某個資料夾中的 .resx 或 .resources 檔案內。若不存在MCP會回傳請AI幫忙翻譯',
-          technologies: t('projects.items.8.technologies') || 'GitHub-Copilot AI Agent MCP C#',
-          github: t('projects.items.8.github') || 'https://github.com/AaronCChen2233/--Tools--ResChecker',
-          website: (t('projects.items.8.website') !== 'projects.items.8.website') ? t('projects.items.8.website') : null
-        },
-        {
-          name: t('projects.items.9.name') || '開發流程標準化',
-          description: t('projects.items.9.description') || '扮演DevOps角色，運用公司現在的DevOps工具與Cloud native工具配合公司政策與開發人員習慣訂定幾個常見的開發流程標準化，包括需求訪談、開發、測試、部署等等，並推廣至全公司使用。',
-          technologies: t('projects.items.9.technologies') || 'Azure-DevOps Git Jenkins Docker IIS Notion SQL-Server RDLC',
-          github: (t('projects.items.9.github') !== 'projects.items.9.github') ? t('projects.items.9.github') : null,
-          website: (t('projects.items.9.website') !== 'projects.items.9.website') ? t('projects.items.9.website') : null
+          name: t('projects.items.2.name') || '開發流程標準化',
+          description: t('projects.items.2.description') || '扮演DevOps角色，運用公司現在的DevOps工具與Cloud native工具配合公司政策與開發人員習慣訂定幾個常見的開發流程標準化，包括需求訪談、開發、測試、部署等等，並推廣至全公司使用。',
+          technologies: t('projects.items.2.technologies') || 'Azure-DevOps Git Jenkins Docker IIS Notion SQL-Server RDLC',
+          github: (t('projects.items.2.github') !== 'projects.items.2.github') ? t('projects.items.2.github') : null,
+          website: (t('projects.items.2.website') !== 'projects.items.2.website') ? t('projects.items.2.website') : null
         }
         // todo: 加上Newegg Eip、Newegg Box
       ]
@@ -189,17 +189,17 @@ export default {
 
     const projectImages = {
       0: 'Portfolio/project-images/simplemusicnotesreader.png',
-      1: 'Portfolio/project-images/multiplefilerename.png',
-      2: 'Portfolio/project-images/sudoku.png',
-      // 3: 'Portfolio/project-images/clipboardtranslator.png',
-      3: 'Portfolio/project-images/chpis.png', 
-      // 5: 'Portfolio/project-images/hcis.png', 
-      4: 'Portfolio/project-images/hcis.png', 
-      5: 'Portfolio/project-images/hcis.png',
-      6: 'Portfolio/project-images/hcis.png', 
-      7: 'Portfolio/project-images/100th.png',  
-      8: 'Portfolio/project-images/ResChecker.png',  
-      9: null // internal project has no image yet
+      //1: 'Portfolio/project-images/multiplefilerename.png',
+      //2: 'Portfolio/project-images/sudoku.png',
+      //// 3: 'Portfolio/project-images/clipboardtranslator.png',
+      //3: 'Portfolio/project-images/chpis.png', 
+      //// 5: 'Portfolio/project-images/hcis.png', 
+      //4: 'Portfolio/project-images/hcis.png', 
+      //5: 'Portfolio/project-images/hcis.png',
+      //6: 'Portfolio/project-images/hcis.png', 
+      //7: 'Portfolio/project-images/100th.png',  
+      1: 'Portfolio/project-images/ResChecker.png',  
+      2: null // internal project has no image yet
     }
 
     const getProjectImage = (index) => {

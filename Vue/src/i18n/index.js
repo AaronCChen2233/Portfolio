@@ -54,10 +54,19 @@ const messages = {
       year: '年',
       jobs: [
         {
+          title: '襄理',
+          company: '凱基證券',
+          location: '台灣, 台北',
+          period: '2026年7月 - 至今',
+          description: [
+            '開發與維護線上開戶系統，使用ASP.NET MVC、.NET(Core)、Vue 3、NUXT、HTML、JQuery、JavaScript、C#'
+          ]
+        },
+        {
           title: '二級專員',
           company: '永豐餘投資控股股份有限公司',
           location: '台灣, 台北',
-          period: '2022年4月 - 至今',
+          period: '2022年4月 - 2026年6月 · 4 年 3 個月',
           description: [
             '開發供公司內部人使用網站 例如：外銷系統、關務系統、客服系統、IFRS，使用ASP.NET MVC、.NET(Core)、Vue 3、Entity Framework、HTML、JQuery、JavaScript、MS SQL、RDLC',
             '規劃DevOps流程使用Azure DevOps、Jenkins、Git、MSBuild、Reporting Services PowerShell、IIS、Kubernetes、Harbor、Notion'
@@ -154,20 +163,20 @@ const messages = {
           github: 'https://github.com/AaronCChen2233/--Portfolio--simple_music_notes_reader',
           website: null
         },
-        {
-          name: 'Multiple File Rename',
-          description: '一個你可以批次幫檔案改名的 Windows 桌面軟體，一共有三種改名方法，取代，刪除與新增字元。',
-          technologies: 'WPF .NET C# MVVM',
-          github: 'https://github.com/AaronCChen2233/--Portfolio--Multiple_File_Rename',
-          website: null
-        },
-        {
-          name: 'SUDOKU',
-          description: '一個能隨機產生數獨問題的 Windows 桌面軟體，有使用者介面可使使用者玩數獨，可選擇難度，當你完成時計時器會自動暫停。',
-          technologies: 'Swing Java',
-          github: 'https://github.com/AaronCChen2233/--Portfolio--SUDOKU',
-          website: null
-        },
+        //{
+        //  name: 'Multiple File Rename',
+        //  description: '一個你可以批次幫檔案改名的 Windows 桌面軟體，一共有三種改名方法，取代，刪除與新增字元。',
+        //  technologies: 'WPF .NET C# MVVM',
+        //  github: 'https://github.com/AaronCChen2233/--Portfolio--Multiple_File_Rename',
+        //  website: null
+        //},
+        //{
+        //  name: 'SUDOKU',
+        //  description: '一個能隨機產生數獨問題的 Windows 桌面軟體，有使用者介面可使使用者玩數獨，可選擇難度，當你完成時計時器會自動暫停。',
+        //  technologies: 'Swing Java',
+        //  github: 'https://github.com/AaronCChen2233/--Portfolio--SUDOKU',
+        //  website: null
+        //},
         // {
         //   name: 'Clipboard Translator',
         //   description: '一個翻譯的 Windows 桌面軟體，當你複製一個單字時會在角落跳出一個小視窗，上面會顯示關於這個單字的相關資訊與翻譯。',
@@ -175,13 +184,13 @@ const messages = {
         //   github: 'https://github.com/AaronCChen2233/--Portfolio--ClipboardTranslator',
         //   website: null
         // },
-        {
-          name: '客服系統',
-          description: '管理客服專案，管理處理事項相關文件等，連接Team+處理客服專案',
-          technologies: 'ASP.NET MVC JavaScript TeamPlus API Microsoft SQL Server',
-          github: null,
-          website: null
-        },
+        //{
+        //  name: '客服系統',
+        //  description: '管理客服專案，管理處理事項相關文件等，連接Team+處理客服專案',
+        //  technologies: 'ASP.NET MVC JavaScript TeamPlus API Microsoft SQL Server',
+        //  github: null,
+        //  website: null
+        //},
         // {
         //   name: '關務系統',
         //   description: '處理進口相關業務與統計報表',
@@ -189,33 +198,33 @@ const messages = {
         //   github: null,
         //   website: null
         // },
-        {
-          name: '智能會議助理',
-          description: '使用雅婷語音轉文字服務與OpenAI，將會議內容逐字稿轉成摘要',
-          technologies: 'OpenAI API Yating API Azure Vue .NET(Core)',
-          github: null,
-          website: null
-        },
-        {
-          name: '緊急重大事件通報',
-          description: '供廠內人員通報緊急重大事件，並傳簡訊、Email通報給相關人士',
-          technologies: 'ASP.NET MVC Microsoft SQL Server SMTP SMS API',
-          github: null,
-          website: null
-        },
-        {
-          name: 'IFRS集團合併報表系統',
-          description: '將集團內子公司財務報表依International Financial Reporting Standards (國際財務報導準則)合併',
-          technologies: 'ASP.NET MVC Microsoft SQL Server RDLC',
-          github: null,
-          website: null
-        },
-        {
-          name: '永豐餘百年慶',
-          description: '協助永豐餘百年慶活動IT系統使用者疑問與故障排除，處理特殊需求',
-          technologies: '.NET(Core) Microsoft SQL Server RDLC',
-          github: null,
-          website: 'https://100th.yfy.com/'        },
+        //{
+        //  name: '智能會議助理',
+        //  description: '使用雅婷語音轉文字服務與OpenAI，將會議內容逐字稿轉成摘要',
+        //  technologies: 'OpenAI API Yating API Azure Vue .NET(Core)',
+        //  github: null,
+        //  website: null
+        //},
+        //{
+        //  name: '緊急重大事件通報',
+        //  description: '供廠內人員通報緊急重大事件，並傳簡訊、Email通報給相關人士',
+        //  technologies: 'ASP.NET MVC Microsoft SQL Server SMTP SMS API',
+        //  github: null,
+        //  website: null
+        //},
+        //{
+        //  name: 'IFRS集團合併報表系統',
+        //  description: '將集團內子公司財務報表依International Financial Reporting Standards (國際財務報導準則)合併',
+        //  technologies: 'ASP.NET MVC Microsoft SQL Server RDLC',
+        //  github: null,
+        //  website: null
+        //},
+        //{
+        //  name: '永豐餘百年慶',
+        //  description: '協助永豐餘百年慶活動IT系統使用者疑問與故障排除，處理特殊需求',
+        //  technologies: '.NET(Core) Microsoft SQL Server RDLC',
+        //  github: null,
+        //  website: 'https://100th.yfy.com/'        },
         {
           name: 'ResChecker',
           description: '一個輕量的 .NET 命令列工具與 MCP 伺服器，用於驗證指定的文字是否存在於某個資料夾中的 .resx 或 .resources 檔案內。若不存在MCP會回傳請AI幫忙翻譯',
@@ -297,10 +306,19 @@ const messages = {
       year: 'years',
       jobs: [
         {
+          title: 'Associate Manager',
+          company: 'KGI Securities',
+          location: 'Taiwan, Taipei',
+          period: 'July 2026 - Present',
+          description: [
+            'Develop and maintain the online account opening system using ASP.NET MVC, .NET (Core), Vue 3, NUXT, HTML, JQuery, JavaScript, and C#'
+          ]
+        },
+        {
           title: 'Level 2 Specialist',
           company: 'YFY Inc.',
           location: 'Taiwan, Taipei',
-          period: 'April 2022 - Present',
+          period: 'April 2022 - June 2026 · 4 years 3 months',
           description: [
             'Develop internal websites such as: export system, customs system, customer service system, IFRS, using ASP.NET MVC, .NET(Core), Vue 3, Entity Framework, HTML, JQuery, JavaScript, MS SQL, RDLC',
             'Plan DevOps processes using Azure DevOps, Jenkins, Git, MSBuild, Reporting Services PowerShell, IIS, Kubernetes, Harbor, Notion'
@@ -397,20 +415,20 @@ const messages = {
           github: 'https://github.com/AaronCChen2233/--Portfolio--simple_music_notes_reader',
           website: null
         },
-        {
-          name: 'Multiple File Rename',
-          description: 'A Windows desktop software that can batch rename files, with three renaming methods: replace, delete and add characters.',
-          technologies: 'WPF .NET C# MVVM',
-          github: 'https://github.com/AaronCChen2233/--Portfolio--Multiple_File_Rename',
-          website: null
-        },
-        {
-          name: 'SUDOKU',
-          description: 'A Windows desktop software that can randomly generate Sudoku problems, with user interface for playing Sudoku, difficulty selection, timer automatically pauses when completed.',
-          technologies: 'Swing Java',
-          github: 'https://github.com/AaronCChen2233/--Portfolio--SUDOKU',
-          website: null
-        },
+        //{
+        //  name: 'Multiple File Rename',
+        //  description: 'A Windows desktop software that can batch rename files, with three renaming methods: replace, delete and add characters.',
+        //  technologies: 'WPF .NET C# MVVM',
+        //  github: 'https://github.com/AaronCChen2233/--Portfolio--Multiple_File_Rename',
+        //  website: null
+        //},
+        //{
+        //  name: 'SUDOKU',
+        //  description: 'A Windows desktop software that can randomly generate Sudoku problems, with user interface for playing Sudoku, difficulty selection, timer automatically pauses when completed.',
+        //  technologies: 'Swing Java',
+        //  github: 'https://github.com/AaronCChen2233/--Portfolio--SUDOKU',
+        //  website: null
+        //},
         // {
         //   name: 'Clipboard Translator',
         //   description: 'A translation Windows desktop software, when you copy a word, a small window will pop up in the corner showing relevant information and translation about the word.',
@@ -418,13 +436,13 @@ const messages = {
         //   github: 'https://github.com/AaronCChen2233/--Portfolio--ClipboardTranslator',
         //   website: null
         // },
-        {
-          name: 'Customer Service System',
-          description: 'Manage customer service projects, manage processing-related documents, connect with Team+ to handle customer service projects',
-          technologies: 'ASP.NET MVC JavaScript TeamPlus API Microsoft SQL Server',
-          github: null,
-          website: null
-        },
+        //{
+        //  name: 'Customer Service System',
+        //  description: 'Manage customer service projects, manage processing-related documents, connect with Team+ to handle customer service projects',
+        //  technologies: 'ASP.NET MVC JavaScript TeamPlus API Microsoft SQL Server',
+        //  github: null,
+        //  website: null
+        //},
         // {
         //   name: 'Customs System',
         //   description: 'Handle import-related business and statistical reports',
@@ -432,34 +450,34 @@ const messages = {
         //   github: null,
         //   website: null
         // },
-        {
-          name: 'AI Meeting Assistant',
-          description: 'Use Yating speech-to-text service and OpenAI to convert meeting transcripts into summaries',
-          technologies: 'OpenAI API Yating API Azure Vue .NET(Core)',
-          github: null,
-          website: null
-        },
-        {
-          name: 'Emergency Incident Reporting',
-          description: 'For factory personnel to report emergency incidents, send SMS and email notifications to relevant personnel',
-          technologies: 'ASP.NET MVC Microsoft SQL Server SMTP SMS API',
-          github: null,
-          website: null
-        },
-        {
-          name: 'IFRS System',
-          description: 'Consolidate subsidiary financial statements within the group according to International Financial Reporting Standards',
-          technologies: 'ASP.NET MVC Microsoft SQL Server RDLC',
-          github: null,
-          website: null
-        },
-        {
-          name: 'YFY 100 Year Anniversary',
-          description: 'Assist with YFY centennial celebration IT system user inquiries and troubleshooting, handle special requirements',
-          technologies: '.NET(Core) Microsoft SQL Server RDLC',
-          github: null,
-          website: 'https://100th.yfy.com/'
-        },
+        //{
+        //  name: 'AI Meeting Assistant',
+        //  description: 'Use Yating speech-to-text service and OpenAI to convert meeting transcripts into summaries',
+        //  technologies: 'OpenAI API Yating API Azure Vue .NET(Core)',
+        //  github: null,
+        //  website: null
+        //},
+        //{
+        //  name: 'Emergency Incident Reporting',
+        //  description: 'For factory personnel to report emergency incidents, send SMS and email notifications to relevant personnel',
+        //  technologies: 'ASP.NET MVC Microsoft SQL Server SMTP SMS API',
+        //  github: null,
+        //  website: null
+        //},
+        //{
+        //  name: 'IFRS System',
+        //  description: 'Consolidate subsidiary financial statements within the group according to International Financial Reporting Standards',
+        //  technologies: 'ASP.NET MVC Microsoft SQL Server RDLC',
+        //  github: null,
+        //  website: null
+        //},
+        //{
+        //  name: 'YFY 100 Year Anniversary',
+        //  description: 'Assist with YFY centennial celebration IT system user inquiries and troubleshooting, handle special requirements',
+        //  technologies: '.NET(Core) Microsoft SQL Server RDLC',
+        //  github: null,
+        //  website: 'https://100th.yfy.com/'
+        //},
                 {
           name: 'ResChecker',
           description: 'A lightweight .NET command line tool and MCP server that verifies whether specified text exists in .resx or .resources files within a folder. If the text does not exist, the MCP returns a request like "please AI help translate".',

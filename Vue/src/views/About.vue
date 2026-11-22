@@ -196,7 +196,7 @@ export default {
     const skillCategories = [
       {
         key: 'devops',
-        technologies: ['Azure DevOps', 'Jenkins', 'Harbor', 'Docker', 'Kubernetes']
+        technologies: ['Azure DevOps', 'Jenkins', 'Harbor', 'Docker']
       },
       {
         key: 'webDev',

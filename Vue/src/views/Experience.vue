@@ -68,42 +68,52 @@ export default {
       // 這樣可以確保數據正確載入
       return [
         {
-          title: t('experience.jobs.0.title') || '二級專員',
-          company: t('experience.jobs.0.company') || '永豐餘投資控股股份有限公司',
+          title: t('experience.jobs.0.title') || '襄理',
+          company: t('experience.jobs.0.company') || '凱基證券',
           location: t('experience.jobs.0.location') || '台灣, 台北',
-          period: t('experience.jobs.0.period') || '2022年4月 - 至今',
+          period: t('experience.jobs.0.period') || '2026年7月 - 至今',
           description: [
-            t('experience.jobs.0.description.0') || '開發供公司內部人使用網站 例如：外銷系統、關務系統、客服系統、IFRS，使用ASP.NET MVC、.NET(Core)、Vue 3、Entity Framework、HTML、JQuery、JavaScript、MS SQL、RDLC',
-            t('experience.jobs.0.description.1') || '規劃DevOps流程使用Azure DevOps、Jenkins、Git、MSBuild、Reporting Services PowerShell、IIS、Kubernetes、Harbor、Notion'
+            t('experience.jobs.0.description.0') || '開發與維護線上開戶系統，使用ASP.NET MVC、.NET(Core)、Vue 3、NUXT、HTML、JQuery、JavaScript、C#'
           ]
         },
         {
-          title: t('experience.jobs.1.title') || '系統工程師',
-          company: t('experience.jobs.1.company') || '耀聖資訊',
+          title: t('experience.jobs.1.title') || '二級專員',
+          company: t('experience.jobs.1.company') || '永豐餘投資控股股份有限公司',
           location: t('experience.jobs.1.location') || '台灣, 台北',
-          period: t('experience.jobs.1.period') || '2021年3月 - 2022年2月 · 11 個月',
+          period: t('experience.jobs.1.period') || '2022年4月 - 2026年6月 · 4 年 3 個月',
           description: [
-            t('experience.jobs.1.description.0') || '維護與開發醫療相關桌面應用程式，使用C#、Windows Presentation Foundation (WPF)、Entity Framework(DB First)、MS SQL、RDLC'
+            t('experience.jobs.1.description.0') || '開發供公司內部人使用網站 例如：外銷系統、關務系統、客服系統、IFRS，使用ASP.NET MVC、.NET(Core)、Vue 3、Entity Framework、HTML、JQuery、JavaScript、MS SQL、RDLC',
+            t('experience.jobs.1.description.1') || '規劃DevOps流程使用Azure DevOps、Jenkins、Git、MSBuild、Reporting Services PowerShell、IIS、Kubernetes、Harbor、Notion'
           ]
         },
         {
-          title: t('experience.jobs.2.title') || '軟體工程師',
-          company: t('experience.jobs.2.company') || '台灣新蛋',
+          title: t('experience.jobs.2.title') || '系統工程師',
+          company: t('experience.jobs.2.company') || '耀聖資訊',
           location: t('experience.jobs.2.location') || '台灣, 台北',
-          period: t('experience.jobs.2.period') || '2014年9月 - 2018年9月 · 4 年 1 個月',
+          period: t('experience.jobs.2.period') || '2021年3月 - 2022年2月 · 11 個月',
           description: [
-            t('experience.jobs.2.description.0') || '維護與開發NewEgg.tw網站，包括前端與後端',
-            t('experience.jobs.2.description.1') || '維護與開發企業入口網站(EIP)，包括後端與手機端(Android)使用 XMPP、MS SQL Server，使用Active MQ、Solr、Redis提升後端服務回應時間',
-            t('experience.jobs.2.description.2') || '開發NewEgg Box 雲端系統桌面應用程式，使用Windows Presentation Foundation (WPF) 與 MVVM (MVVM Light)架構。研究與技術分享使團隊有更好的產出'
+            t('experience.jobs.2.description.0') || '維護與開發醫療相關桌面應用程式，使用C#、Windows Presentation Foundation (WPF)、Entity Framework(DB First)、MS SQL、RDLC'
+          ]
+        },
+        {
+          title: t('experience.jobs.3.title') || '軟體工程師',
+          company: t('experience.jobs.3.company') || '台灣新蛋',
+          location: t('experience.jobs.3.location') || '台灣, 台北',
+          period: t('experience.jobs.3.period') || '2014年9月 - 2018年9月 · 4 年 1 個月',
+          description: [
+            t('experience.jobs.3.description.0') || '維護與開發NewEgg.tw網站，包括前端與後端',
+            t('experience.jobs.3.description.1') || '維護與開發企業入口網站(EIP)，包括後端與手機端(Android)使用 XMPP、MS SQL Server，使用Active MQ、Solr、Redis提升後端服務回應時間',
+            t('experience.jobs.3.description.2') || '開發NewEgg Box 雲端系統桌面應用程式，使用Windows Presentation Foundation (WPF) 與 MVVM (MVVM Light)架構。研究與技術分享使團隊有更好的產出'
           ]
         }
       ]
     })
 
     const companyLogos = {
-      0: 'Portfolio/company-logos/yfy.png',       // 永豐餘 (二級專員)
-      1: 'Portfolio/company-logos/realsun.png',  // 耀聖資訊 (系統工程師)
-      2: 'Portfolio/company-logos/newegg.png'     // 台灣新蛋 (軟體工程師)
+      0: 'Portfolio/company-logos/kgi.png',       // 凱基 (襄理)
+      1: 'Portfolio/company-logos/yfy.png',       // 永豐餘 (二級專員)
+      2: 'Portfolio/company-logos/realsun.png',  // 耀聖資訊 (系統工程師)
+      3: 'Portfolio/company-logos/newegg.png'     // 台灣新蛋 (軟體工程師)
     }
 
     const getCompanyLogo = (index) => {
